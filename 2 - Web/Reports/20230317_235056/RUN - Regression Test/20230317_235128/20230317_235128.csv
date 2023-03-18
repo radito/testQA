@@ -1,0 +1,133 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RUN - Regression Test,Chrome 111.0.0.0,,,2023-03-17 23:52:57,2023-03-17 23:59:02,6m - 4.926s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-08 - Amount Form Should Equal on Homepage,Chrome 111.0.0.0,Pastikan Amount di PopUp Checkout Sesuai dengan Amount yang diinput,,2023-03-17 23:52:57,2023-03-17 23:53:42,44.436s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:52:58,2023-03-17 23:53:04,6.256s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:53:04,2023-03-17 23:53:12,7.619s,PASSED
+"click(findTestObject(""Object Repository/AmountVerify/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:53:12,2023-03-17 23:53:18,5.932s,PASSED
+"setText(findTestObject(""Object Repository/AmountVerify/input_1_text-right""), ""999"")",Chrome 111.0.0.0,,,2023-03-17 23:53:18,2023-03-17 23:53:38,20.291s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmountVerify/td_999""), ""999"")",Chrome 111.0.0.0,,,2023-03-17 23:53:38,2023-03-17 23:53:39,1.327s,PASSED
+"click(findTestObject(""Object Repository/AmountVerify/div_cancel""))",Chrome 111.0.0.0,,,2023-03-17 23:53:39,2023-03-17 23:53:41,1.542s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmountVerify/span_999""), ""999"")",Chrome 111.0.0.0,,,2023-03-17 23:53:41,2023-03-17 23:53:42,0.944s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-02 - Register (Sign Up) Button,Chrome 111.0.0.0,Pastikan user diarahkan ke halaman registrasi ketika melakukan klik Button Register,,2023-03-17 23:53:42,2023-03-17 23:54:55,1m - 13.023s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:53:42,2023-03-17 23:53:53,10.326s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:53:53,2023-03-17 23:54:00,7.518s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Register/div_Ready to integrate SNAPSIGN UP""), 0)",Chrome 111.0.0.0,,,2023-03-17 23:54:00,2023-03-17 23:54:02,1.938s,PASSED
+"click(findTestObject(""Object Repository/Register/a_SIGN UP""))",Chrome 111.0.0.0,,,2023-03-17 23:54:02,2023-03-17 23:54:06,4.143s,PASSED
+"switchToWindowTitle(""MAP | Registration"")",Chrome 111.0.0.0,,,2023-03-17 23:54:06,2023-03-17 23:54:46,39.413s,PASSED
+"assert getUrl() == ""https://dashboard.midtrans.com/register""",Chrome 111.0.0.0,,,2023-03-17 23:54:46,2023-03-17 23:54:48,2.060s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Register/h1_Registration""), ""Registration"")",Chrome 111.0.0.0,,,2023-03-17 23:54:48,2023-03-17 23:54:55,6.902s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-17 23:54:55,2023-03-17 23:54:55,0.371s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-09 - Amount Checkout Should Equal on Form,Chrome 111.0.0.0,Pastikan Amount di PopUp Checkout Sesuai dengan Amount yang diinput,,2023-03-17 23:54:55,2023-03-17 23:55:35,39.481s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:54:56,2023-03-17 23:55:01,5.967s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:55:01,2023-03-17 23:55:08,6.249s,PASSED
+"click(findTestObject(""Object Repository/AmountCheckout/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:55:08,2023-03-17 23:55:14,5.867s,PASSED
+"setText(findTestObject(""Object Repository/AmountCheckout/input_1_text-right""), ""999"")",Chrome 111.0.0.0,,,2023-03-17 23:55:14,2023-03-17 23:55:17,2.947s,PASSED
+"click(findTestObject(""Object Repository/AmountCheckout/div_CHECKOUT""))",Chrome 111.0.0.0,,,2023-03-17 23:55:17,2023-03-17 23:55:25,8.393s,PASSED
+"click(findTestObject(""Object Repository/AmountCheckout/img_Rp999_logo""))",Chrome 111.0.0.0,,,2023-03-17 23:55:25,2023-03-17 23:55:33,7.935s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmountCheckout/div_Rp999""), ""Rp999"")",Chrome 111.0.0.0,,,2023-03-17 23:55:33,2023-03-17 23:55:34,0.637s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmountCheckout/td_Rp999""), ""Rp999"")",Chrome 111.0.0.0,,,2023-03-17 23:55:34,2023-03-17 23:55:34,0.405s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmountCheckout/td_Rp999""), ""Rp999"")",Chrome 111.0.0.0,,,2023-03-17 23:55:34,2023-03-17 23:55:35,0.608s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout,Chrome 111.0.0.0,Pastikan PopUp payment berhasil ditampilkan ketika user klik checkout,,2023-03-17 23:55:35,2023-03-17 23:56:10,35.204s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:55:35,2023-03-17 23:55:41,5.449s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:55:41,2023-03-17 23:55:45,4.160s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:55:45,2023-03-17 23:55:50,4.739s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/div_CHECKOUT""))",Chrome 111.0.0.0,,,2023-03-17 23:55:50,2023-03-17 23:55:54,4.179s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TEST_modal-iframe""))",Chrome 111.0.0.0,,,2023-03-17 23:55:54,2023-03-17 23:56:06,12.102s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_DEMO STORE""))",Chrome 111.0.0.0,,,2023-03-17 23:56:06,2023-03-17 23:56:07,1.478s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TotalChoose within235907Rp20.000Order I_01234c""))",Chrome 111.0.0.0,,,2023-03-17 23:56:07,2023-03-17 23:56:08,0.957s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/img_Rp20.000_logo""))",Chrome 111.0.0.0,,,2023-03-17 23:56:08,2023-03-17 23:56:09,1.033s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TotalChoose within235849Rp20.000Order I_b557cd""))",Chrome 111.0.0.0,,,2023-03-17 23:56:09,2023-03-17 23:56:10,0.445s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-07 - Payment PopUp on Close,Chrome 111.0.0.0,Pastikan PopUp payment berhasil ditutup ketika user klik close,,2023-03-17 23:56:10,2023-03-17 23:56:35,25.299s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:56:10,2023-03-17 23:56:15,5.364s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:56:15,2023-03-17 23:56:19,3.791s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:56:19,2023-03-17 23:56:23,3.604s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_SIGN UP_main-overlay buying""))",Chrome 111.0.0.0,,,2023-03-17 23:56:23,2023-03-17 23:56:25,2.681s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_Shopping Cart 1""))",Chrome 111.0.0.0,,,2023-03-17 23:56:25,2023-03-17 23:56:28,2.202s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Chrome 111.0.0.0,,,2023-03-17 23:56:28,2023-03-17 23:56:31,3.019s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Box/a_BUY NOW""), 0)",Chrome 111.0.0.0,,,2023-03-17 23:56:31,2023-03-17 23:56:35,4.366s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-03 - Show Box Item Info,Chrome 111.0.0.0,Pastikan Box Item Info ditampilkan di Homepage pada saat user akses,,2023-03-17 23:56:35,2023-03-17 23:56:52,16.941s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:56:35,2023-03-17 23:56:40,4.968s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:56:40,2023-03-17 23:56:42,1.781s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Box/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""), 0)",Chrome 111.0.0.0,,,2023-03-17 23:56:42,2023-03-17 23:56:43,0.924s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Box/a_BUY NOW""), 0)",Chrome 111.0.0.0,,,2023-03-17 23:56:43,2023-03-17 23:56:44,0.514s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_Midtrans Pillow""), ""Midtrans Pillow"")",Chrome 111.0.0.0,,,2023-03-17 23:56:44,2023-03-17 23:56:46,2.541s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/span_Get cozy with our new pillow""), ""Get cozy with our new pillow!"")",Chrome 111.0.0.0,,,2023-03-17 23:56:46,2023-03-17 23:56:52,5.742s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-17 23:56:52,2023-03-17 23:56:52,0.141s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel,Chrome 111.0.0.0,Pastikan user diarahkan ke Homepage ketika klik label Cancel,,2023-03-17 23:56:52,2023-03-17 23:57:10,18.058s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:56:52,2023-03-17 23:56:57,4.706s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:56:57,2023-03-17 23:56:59,2.418s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:56:59,2023-03-17 23:57:02,2.628s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Chrome 111.0.0.0,,,2023-03-17 23:57:02,2023-03-17 23:57:05,2.906s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Chrome 111.0.0.0,,,2023-03-17 23:57:05,2023-03-17 23:57:09,4.014s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""))",Chrome 111.0.0.0,,,2023-03-17 23:57:09,2023-03-17 23:57:10,1.028s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-01 - Show Shopping Cart Form,Chrome 111.0.0.0,Pastikan Form Shopping Cart dimunculkan ketika user klik Checkout,,2023-03-17 23:57:10,2023-03-17 23:57:27,16.999s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:57:10,2023-03-17 23:57:16,5.965s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:57:16,2023-03-17 23:57:19,2.486s,PASSED
+"click(findTestObject(""Object Repository/Box/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:57:19,2023-03-17 23:57:21,1.930s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/span_Shopping Cart""))",Chrome 111.0.0.0,,,2023-03-17 23:57:21,2023-03-17 23:57:22,1.465s,PASSED
+"click(findTestObject(""Object Repository/Box/div_Customer Details""))",Chrome 111.0.0.0,,,2023-03-17 23:57:22,2023-03-17 23:57:23,0.760s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/div_Customer Details""))",Chrome 111.0.0.0,,,2023-03-17 23:57:23,2023-03-17 23:57:25,2.556s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_Customer Details""), ""Customer Details"")",Chrome 111.0.0.0,,,2023-03-17 23:57:25,2023-03-17 23:57:26,0.687s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/div_CHECKOUT""))",Chrome 111.0.0.0,,,2023-03-17 23:57:26,2023-03-17 23:57:27,0.473s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_CHECKOUT""), ""CHECKOUT"")",Chrome 111.0.0.0,,,2023-03-17 23:57:27,2023-03-17 23:57:27,0.462s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant,Chrome 111.0.0.0,Pastikan button Back to Merchant mengarahkan user ke Homepage,,2023-03-17 23:57:27,2023-03-17 23:57:47,19.441s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:57:27,2023-03-17 23:57:32,4.544s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:57:32,2023-03-17 23:57:34,1.887s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:57:34,2023-03-17 23:57:36,1.711s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/div_CHECKOUT""))",Chrome 111.0.0.0,,,2023-03-17 23:57:36,2023-03-17 23:57:39,3.168s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/a_GoPayQRIS""))",Chrome 111.0.0.0,,,2023-03-17 23:57:39,2023-03-17 23:57:45,6.126s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/button_Back to merchant""))",Chrome 111.0.0.0,,,2023-03-17 23:57:45,2023-03-17 23:57:45,0.688s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""), 0)",Chrome 111.0.0.0,,,2023-03-17 23:57:45,2023-03-17 23:57:46,0.511s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""))",Chrome 111.0.0.0,,,2023-03-17 23:57:46,2023-03-17 23:57:47,0.540s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-04 - Disable Amount when inserted Character,Chrome 111.0.0.0,Pastikan user tidak dapat menginput karakter di inputan Amount,,2023-03-17 23:57:47,2023-03-17 23:58:01,14.925s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:57:47,2023-03-17 23:57:51,4.517s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:57:51,2023-03-17 23:57:54,2.619s,PASSED
+"click(findTestObject(""Object Repository/NegAmountChar/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:57:54,2023-03-17 23:57:56,1.593s,PASSED
+"setText(findTestObject(""Object Repository/NegAmountChar/input_1_text-right""), ""1993"")",Chrome 111.0.0.0,,,2023-03-17 23:57:56,2023-03-17 23:57:58,2.881s,PASSED
+"setText(findTestObject(""Page_Sample Store/input_1_text-right""), ""abcdefg"", OPTIONAL)",Chrome 111.0.0.0,,,2023-03-17 23:57:58,2023-03-17 23:57:59,0.548s,PASSED
+"verifyElementText(findTestObject(""Object Repository/NegAmountChar/td_1,993""), ""1,993"")",Chrome 111.0.0.0,,,2023-03-17 23:57:59,2023-03-17 23:58:01,2.550s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-02 - Error on Huge Amount,Chrome 111.0.0.0,,,2023-03-17 23:58:01,2023-03-17 23:58:20,18.463s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:58:02,2023-03-17 23:58:06,4.637s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:58:06,2023-03-17 23:58:10,3.237s,PASSED
+"click(findTestObject(""Object Repository/NegAmountHuge/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:58:10,2023-03-17 23:58:11,1.843s,PASSED
+"setText(findTestObject(""Object Repository/NegAmountHuge/input_1_text-right""), ""1000000000000"")",Chrome 111.0.0.0,,,2023-03-17 23:58:11,2023-03-17 23:58:15,3.525s,PASSED
+"click(findTestObject(""Object Repository/NegAmountHuge/div_CHECKOUT""))",Chrome 111.0.0.0,,,2023-03-17 23:58:15,2023-03-17 23:58:19,4.373s,PASSED
+"verifyElementText(findTestObject(""Object Repository/NegAmountHuge/span_Sorry, something went wrong""), ""Sorry, something went wrong."")",Chrome 111.0.0.0,,,2023-03-17 23:58:19,2023-03-17 23:58:20,0.536s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-17 23:58:20,2023-03-17 23:58:20,0.081s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-01 - Amount Dont Accept Negative Value,Chrome 111.0.0.0,,,2023-03-17 23:58:20,2023-03-17 23:58:39,19.414s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:58:20,2023-03-17 23:58:25,4.984s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:58:25,2023-03-17 23:58:29,4.062s,PASSED
+"click(findTestObject(""Object Repository/NegValdiateNegative/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:58:29,2023-03-17 23:58:31,1.884s,PASSED
+"setText(findTestObject(""Object Repository/NegValdiateNegative/input_1_text-right""), ""123"")",Chrome 111.0.0.0,,,2023-03-17 23:58:31,2023-03-17 23:58:35,4.235s,PASSED
+"setText(findTestObject(""Object Repository/NegValdiateNegative/input_1_text-right""), ""-"")",Chrome 111.0.0.0,,,2023-03-17 23:58:35,2023-03-17 23:58:38,2.642s,PASSED
+"verifyElementText(findTestObject(""Object Repository/NegValdiateNegative/td_123""), ""123"")",Chrome 111.0.0.0,,,2023-03-17 23:58:38,2023-03-17 23:58:39,1.459s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-03 - Error on Empty Customer Data,Chrome 111.0.0.0,,,2023-03-17 23:58:39,2023-03-17 23:59:02,22.563s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:58:40,2023-03-17 23:58:44,4.529s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:58:44,2023-03-17 23:58:46,1.869s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:58:46,2023-03-17 23:58:48,1.687s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/input_email""))",Chrome 111.0.0.0,,,2023-03-17 23:58:48,2023-03-17 23:58:50,2.161s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/input_email""), "" "")",Chrome 111.0.0.0,,,2023-03-17 23:58:50,2023-03-17 23:58:54,4.192s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/input_name""))",Chrome 111.0.0.0,,,2023-03-17 23:58:54,2023-03-17 23:58:54,0.388s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/input_name""), "" "")",Chrome 111.0.0.0,,,2023-03-17 23:58:54,2023-03-17 23:58:55,1.025s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/input_phone""))",Chrome 111.0.0.0,,,2023-03-17 23:58:55,2023-03-17 23:58:56,0.601s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/input_phone""), "" "")",Chrome 111.0.0.0,,,2023-03-17 23:58:56,2023-03-17 23:58:57,0.680s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/input_postal""))",Chrome 111.0.0.0,,,2023-03-17 23:58:57,2023-03-17 23:58:57,0.517s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/input_postal""), "" "")",Chrome 111.0.0.0,,,2023-03-17 23:58:57,2023-03-17 23:58:58,0.781s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/input_city""))",Chrome 111.0.0.0,,,2023-03-17 23:58:58,2023-03-17 23:58:58,0.326s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/input_city""), "" "")",Chrome 111.0.0.0,,,2023-03-17 23:58:58,2023-03-17 23:58:59,0.874s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/textarea_MidPlaza 2, 4th Floor Jl.Jend.Sudi_875190""), """")",Chrome 111.0.0.0,,,2023-03-17 23:58:59,2023-03-17 23:59:00,0.727s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/div_CHECKOUT""))",Chrome 111.0.0.0,,,2023-03-17 23:59:00,2023-03-17 23:59:02,1.629s,PASSED
+"verifyElementText(findTestObject(""Object Repository/EmptyData/span_Sorry, something went wrong""), ""Sorry, something went wrong."")",Chrome 111.0.0.0,,,2023-03-17 23:59:02,2023-03-17 23:59:02,0.401s,PASSED

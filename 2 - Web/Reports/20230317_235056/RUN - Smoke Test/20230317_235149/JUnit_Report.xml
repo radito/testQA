@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RUN - Smoke Test" time="122.396" tests="7" failures="0" errors="0">
+   <testsuite name="RUN - Smoke Test" tests="7" failures="0" errors="0" time="122.396" skipped="0" timestamp="2023-03-17 23:53:13" hostname="raditows - 192.168.1.5" id="Test Suites/RUN - Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/raditows/Developer/QATest/2 - Web/Reports/20230317_235056/RUN - Smoke Test/20230317_235149"/>
+         <property name="logFiles" value="/Users/raditows/Developer/QATest/2 - Web/Reports/20230317_235056/RUN - Smoke Test/20230317_235149/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raditows - 192.168.1.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Firefox 111.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="8b4ac430-0ffe-4dc2-a375-323a126fb597"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Positive Case/TC-02 - Register (Sign Up) Button" time="26.075" classname="Test Cases/Positive Case/TC-02 - Register (Sign Up) Button" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:53:13 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-02 - Register (Sign Up) Button: Test Cases/Positive Case/TC-02 - Register (Sign Up) Button
+
+2023-03-17 23:53:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:53:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:53:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:53:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:53:29 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:53:33 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:53:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Register/div_Ready to integrate SNAPSIGN UP"), 0): Object 'Object Repository/Register/div_Ready to integrate SNAPSIGN UP' is present
+
+2023-03-17 23:53:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-17 23:53:34 - [MESSAGE][PASSED] - Object 'Object Repository/Register/div_Ready to integrate SNAPSIGN UP' is present
+
+2023-03-17 23:53:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/a_SIGN UP")): Object: 'Object Repository/Register/a_SIGN UP' is clicked on
+
+2023-03-17 23:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/a_SIGN UP' is clicked on
+
+2023-03-17 23:53:35 - [TEST_STEP][PASSED] - switchToWindowTitle("MAP | Registration"): Switched to window with title: 'MAP | Registration'
+
+2023-03-17 23:53:36 - [MESSAGE][PASSED] - Switched to window with title: 'MAP | Registration'
+
+2023-03-17 23:53:36 - [TEST_STEP][PASSED] - assert getUrl() == "https://dashboard.midtrans.com/register": Current window's url is: 'https://dashboard.midtrans.com/register'
+
+2023-03-17 23:53:36 - [MESSAGE][PASSED] - Current window's url is: 'https://dashboard.midtrans.com/register'
+
+2023-03-17 23:53:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Register/h1_Registration"), "Registration"): Actual text and expected text of test object 'Object Repository/Register/h1_Registration' are matched.
+
+2023-03-17 23:53:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Register/h1_Registration' are matched.
+
+2023-03-17 23:53:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-17 23:53:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout" time="21.354" classname="Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:53:39 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout: Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout
+
+2023-03-17 23:53:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:53:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:53:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:53:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:53:49 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:53:51 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:53:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCheckout/a_BUY NOW")): Object: 'Object Repository/PopupCheckout/a_BUY NOW' is clicked on
+
+2023-03-17 23:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCheckout/a_BUY NOW' is clicked on
+
+2023-03-17 23:53:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCheckout/div_CHECKOUT")): Object: 'Object Repository/PopupCheckout/div_CHECKOUT' is clicked on
+
+2023-03-17 23:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCheckout/div_CHECKOUT' is clicked on
+
+2023-03-17 23:53:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCheckout/div_TEST_modal-iframe")): Object 'Object Repository/PopupCheckout/div_TEST_modal-iframe' is visible
+
+2023-03-17 23:53:58 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCheckout/div_TEST_modal-iframe' is visible
+
+2023-03-17 23:53:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCheckout/div_DEMO STORE")): Object 'Object Repository/PopupCheckout/div_DEMO STORE' is visible
+
+2023-03-17 23:53:58 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCheckout/div_DEMO STORE' is visible
+
+2023-03-17 23:53:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCheckout/div_TotalChoose within235907Rp20.000Order I_01234c")): Object 'Object Repository/PopupCheckout/div_TotalChoose within235907Rp20.000Order I_01234c' is visible
+
+2023-03-17 23:53:59 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCheckout/div_TotalChoose within235907Rp20.000Order I_01234c' is visible
+
+2023-03-17 23:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCheckout/img_Rp20.000_logo")): Object: 'Object Repository/PopupCheckout/img_Rp20.000_logo' is clicked on
+
+2023-03-17 23:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCheckout/img_Rp20.000_logo' is clicked on
+
+2023-03-17 23:54:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCheckout/div_TotalChoose within235849Rp20.000Order I_b557cd")): Object 'Object Repository/PopupCheckout/div_TotalChoose within235849Rp20.000Order I_b557cd' is visible
+
+2023-03-17 23:54:01 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCheckout/div_TotalChoose within235849Rp20.000Order I_b557cd' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-07 - Payment PopUp on Close" time="16.867" classname="Test Cases/Positive Case/TC-07 - Payment PopUp on Close" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:54:01 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-07 - Payment PopUp on Close: Test Cases/Positive Case/TC-07 - Payment PopUp on Close
+
+2023-03-17 23:54:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:54:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:54:02 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:54:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:54:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:54:06 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:13 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCancel/a_BUY NOW")): Object: 'Object Repository/PopupCancel/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCancel/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCancel/div_SIGN UP_main-overlay buying")): Object 'Object Repository/PopupCancel/div_SIGN UP_main-overlay buying' is visible
+
+2023-03-17 23:54:16 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCancel/div_SIGN UP_main-overlay buying' is visible
+
+2023-03-17 23:54:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCancel/div_Shopping Cart 1")): Object 'Object Repository/PopupCancel/div_Shopping Cart 1' is visible
+
+2023-03-17 23:54:16 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCancel/div_Shopping Cart 1' is visible
+
+2023-03-17 23:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCancel/div_cancel")): Object: 'Object Repository/PopupCancel/div_cancel' is clicked on
+
+2023-03-17 23:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCancel/div_cancel' is clicked on
+
+2023-03-17 23:54:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Box/a_BUY NOW"), 0): Object 'Object Repository/Box/a_BUY NOW' is present
+
+2023-03-17 23:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-17 23:54:18 - [MESSAGE][PASSED] - Object 'Object Repository/Box/a_BUY NOW' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-03 - Show Box Item Info" time="12.354" classname="Test Cases/Positive Case/TC-03 - Show Box Item Info" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:54:18 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-03 - Show Box Item Info: Test Cases/Positive Case/TC-03 - Show Box Item Info
+
+2023-03-17 23:54:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:54:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:54:19 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:54:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:54:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:54:22 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:27 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Box/div_Midtrans PillowRp 20,000Get cozy with o_4052a0"), 0): Object 'Object Repository/Box/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is present
+
+2023-03-17 23:54:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-17 23:54:28 - [MESSAGE][PASSED] - Object 'Object Repository/Box/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is present
+
+2023-03-17 23:54:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Box/a_BUY NOW"), 0): Object 'Object Repository/Box/a_BUY NOW' is present
+
+2023-03-17 23:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-17 23:54:28 - [MESSAGE][PASSED] - Object 'Object Repository/Box/a_BUY NOW' is present
+
+2023-03-17 23:54:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Box/div_Midtrans Pillow"), "Midtrans Pillow"): Actual text and expected text of test object 'Object Repository/Box/div_Midtrans Pillow' are matched.
+
+2023-03-17 23:54:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Box/div_Midtrans Pillow' are matched.
+
+2023-03-17 23:54:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Box/span_Get cozy with our new pillow"), "Get cozy with our new pillow!"): Actual text and expected text of test object 'Object Repository/Box/span_Get cozy with our new pillow' are matched.
+
+2023-03-17 23:54:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Box/span_Get cozy with our new pillow' are matched.
+
+2023-03-17 23:54:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-17 23:54:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel" time="10.309" classname="Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:54:30 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel: Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel
+
+2023-03-17 23:54:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:54:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:54:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:54:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:54:34 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:38 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCancel/a_BUY NOW")): Object: 'Object Repository/PopupCancel/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCancel/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCancel/div_cancel")): Object 'Object Repository/PopupCancel/div_cancel' is visible
+
+2023-03-17 23:54:39 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCancel/div_cancel' is visible
+
+2023-03-17 23:54:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCancel/div_cancel")): Object: 'Object Repository/PopupCancel/div_cancel' is clicked on
+
+2023-03-17 23:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCancel/div_cancel' is clicked on
+
+2023-03-17 23:54:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCancel/div_Midtrans PillowRp 20,000Get cozy with o_4052a0")): Object 'Object Repository/PopupCancel/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is visible
+
+2023-03-17 23:54:40 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCancel/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-01 - Show Shopping Cart Form" time="13.318" classname="Test Cases/Positive Case/TC-01 - Show Shopping Cart Form" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:54:40 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-01 - Show Shopping Cart Form: Test Cases/Positive Case/TC-01 - Show Shopping Cart Form
+
+2023-03-17 23:54:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:54:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:54:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:54:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:54:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:54:45 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:48 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Box/a_BUY NOW")): Object: 'Object Repository/Box/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Box/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Box/span_Shopping Cart")): Object 'Object Repository/Box/span_Shopping Cart' is visible
+
+2023-03-17 23:54:51 - [MESSAGE][PASSED] - Object 'Object Repository/Box/span_Shopping Cart' is visible
+
+2023-03-17 23:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Box/div_Customer Details")): Object: 'Object Repository/Box/div_Customer Details' is clicked on
+
+2023-03-17 23:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Box/div_Customer Details' is clicked on
+
+2023-03-17 23:54:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Box/div_Customer Details")): Object 'Object Repository/Box/div_Customer Details' is visible
+
+2023-03-17 23:54:52 - [MESSAGE][PASSED] - Object 'Object Repository/Box/div_Customer Details' is visible
+
+2023-03-17 23:54:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Box/div_Customer Details"), "Customer Details"): Actual text and expected text of test object 'Object Repository/Box/div_Customer Details' are matched.
+
+2023-03-17 23:54:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Box/div_Customer Details' are matched.
+
+2023-03-17 23:54:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Box/div_CHECKOUT")): Object 'Object Repository/Box/div_CHECKOUT' is visible
+
+2023-03-17 23:54:53 - [MESSAGE][PASSED] - Object 'Object Repository/Box/div_CHECKOUT' is visible
+
+2023-03-17 23:54:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Box/div_CHECKOUT"), "CHECKOUT"): Actual text and expected text of test object 'Object Repository/Box/div_CHECKOUT' are matched.
+
+2023-03-17 23:54:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Box/div_CHECKOUT' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant" time="21.254" classname="Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:54:54 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant: Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant
+
+2023-03-17 23:54:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:54:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:54:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:54:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:54:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:54:58 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:55:03 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:55:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackToMerchant/a_BUY NOW")): Object: 'Object Repository/BackToMerchant/a_BUY NOW' is clicked on
+
+2023-03-17 23:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/BackToMerchant/a_BUY NOW' is clicked on
+
+2023-03-17 23:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackToMerchant/div_CHECKOUT")): Object: 'Object Repository/BackToMerchant/div_CHECKOUT' is clicked on
+
+2023-03-17 23:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/BackToMerchant/div_CHECKOUT' is clicked on
+
+2023-03-17 23:55:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackToMerchant/a_GoPayQRIS")): Object: 'Object Repository/BackToMerchant/a_GoPayQRIS' is clicked on
+
+2023-03-17 23:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/BackToMerchant/a_GoPayQRIS' is clicked on
+
+2023-03-17 23:55:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackToMerchant/button_Back to merchant")): Object: 'Object Repository/BackToMerchant/button_Back to merchant' is clicked on
+
+2023-03-17 23:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/BackToMerchant/button_Back to merchant' is clicked on
+
+2023-03-17 23:55:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0"), 0): Object 'Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is present
+
+2023-03-17 23:55:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-17 23:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is present
+
+2023-03-17 23:55:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0")): Object 'Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is visible
+
+2023-03-17 23:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-17 23:53:13 - [TEST_SUITE][PASSED] - RUN - Smoke Test: Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

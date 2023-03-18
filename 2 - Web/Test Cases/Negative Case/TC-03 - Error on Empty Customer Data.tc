@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-03 - Error on Empty Customer Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13dbdb06-74ce-4617-b445-1320b8c381af</testCaseGuid>
+</TestCaseEntity>

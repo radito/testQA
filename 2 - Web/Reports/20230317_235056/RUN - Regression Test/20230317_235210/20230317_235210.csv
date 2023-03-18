@@ -1,0 +1,133 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RUN - Regression Test,Firefox 111.0,,,2023-03-17 23:53:26,2023-03-17 23:56:32,3m - 5.820s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-08 - Amount Form Should Equal on Homepage,Firefox 111.0,Pastikan Amount di PopUp Checkout Sesuai dengan Amount yang diinput,,2023-03-17 23:53:27,2023-03-17 23:53:44,16.723s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:53:28,2023-03-17 23:53:35,6.995s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:53:35,2023-03-17 23:53:39,4.698s,PASSED
+"click(findTestObject(""Object Repository/AmountVerify/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:53:39,2023-03-17 23:53:41,1.886s,PASSED
+"setText(findTestObject(""Object Repository/AmountVerify/input_1_text-right""), ""999"")",Firefox 111.0,,,2023-03-17 23:53:41,2023-03-17 23:53:42,0.746s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmountVerify/td_999""), ""999"")",Firefox 111.0,,,2023-03-17 23:53:42,2023-03-17 23:53:43,0.512s,PASSED
+"click(findTestObject(""Object Repository/AmountVerify/div_cancel""))",Firefox 111.0,,,2023-03-17 23:53:43,2023-03-17 23:53:43,0.843s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmountVerify/span_999""), ""999"")",Firefox 111.0,,,2023-03-17 23:53:43,2023-03-17 23:53:44,0.317s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-02 - Register (Sign Up) Button,Firefox 111.0,Pastikan user diarahkan ke halaman registrasi ketika melakukan klik Button Register,,2023-03-17 23:53:44,2023-03-17 23:53:58,14.428s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:53:44,2023-03-17 23:53:49,5.012s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:53:49,2023-03-17 23:53:51,2.471s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Register/div_Ready to integrate SNAPSIGN UP""), 0)",Firefox 111.0,,,2023-03-17 23:53:51,2023-03-17 23:53:53,1.201s,PASSED
+"click(findTestObject(""Object Repository/Register/a_SIGN UP""))",Firefox 111.0,,,2023-03-17 23:53:53,2023-03-17 23:53:53,0.496s,PASSED
+"switchToWindowTitle(""MAP | Registration"")",Firefox 111.0,,,2023-03-17 23:53:53,2023-03-17 23:53:54,0.719s,PASSED
+"assert getUrl() == ""https://dashboard.midtrans.com/register""",Firefox 111.0,,,2023-03-17 23:53:54,2023-03-17 23:53:54,0.038s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Register/h1_Registration""), ""Registration"")",Firefox 111.0,,,2023-03-17 23:53:54,2023-03-17 23:53:57,3.461s,PASSED
+closeBrowser(),Firefox 111.0,,,2023-03-17 23:53:57,2023-03-17 23:53:58,0.819s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-09 - Amount Checkout Should Equal on Form,Firefox 111.0,Pastikan Amount di PopUp Checkout Sesuai dengan Amount yang diinput,,2023-03-17 23:53:58,2023-03-17 23:54:12,13.721s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:53:58,2023-03-17 23:54:02,3.925s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:54:02,2023-03-17 23:54:05,2.742s,PASSED
+"click(findTestObject(""Object Repository/AmountCheckout/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:54:05,2023-03-17 23:54:07,1.829s,PASSED
+"setText(findTestObject(""Object Repository/AmountCheckout/input_1_text-right""), ""999"")",Firefox 111.0,,,2023-03-17 23:54:07,2023-03-17 23:54:08,0.766s,PASSED
+"click(findTestObject(""Object Repository/AmountCheckout/div_CHECKOUT""))",Firefox 111.0,,,2023-03-17 23:54:08,2023-03-17 23:54:08,0.675s,PASSED
+"click(findTestObject(""Object Repository/AmountCheckout/img_Rp999_logo""))",Firefox 111.0,,,2023-03-17 23:54:08,2023-03-17 23:54:10,1.779s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmountCheckout/div_Rp999""), ""Rp999"")",Firefox 111.0,,,2023-03-17 23:54:10,2023-03-17 23:54:11,0.454s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmountCheckout/td_Rp999""), ""Rp999"")",Firefox 111.0,,,2023-03-17 23:54:11,2023-03-17 23:54:11,0.424s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmountCheckout/td_Rp999""), ""Rp999"")",Firefox 111.0,,,2023-03-17 23:54:11,2023-03-17 23:54:12,0.774s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout,Firefox 111.0,Pastikan PopUp payment berhasil ditampilkan ketika user klik checkout,,2023-03-17 23:54:12,2023-03-17 23:54:27,14.999s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:54:13,2023-03-17 23:54:17,4.412s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:54:17,2023-03-17 23:54:20,3.100s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:54:20,2023-03-17 23:54:22,1.637s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/div_CHECKOUT""))",Firefox 111.0,,,2023-03-17 23:54:22,2023-03-17 23:54:23,1.144s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TEST_modal-iframe""))",Firefox 111.0,,,2023-03-17 23:54:23,2023-03-17 23:54:24,1.291s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_DEMO STORE""))",Firefox 111.0,,,2023-03-17 23:54:24,2023-03-17 23:54:25,0.610s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TotalChoose within235907Rp20.000Order I_01234c""))",Firefox 111.0,,,2023-03-17 23:54:25,2023-03-17 23:54:25,0.476s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/img_Rp20.000_logo""))",Firefox 111.0,,,2023-03-17 23:54:25,2023-03-17 23:54:26,0.774s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TotalChoose within235849Rp20.000Order I_b557cd""))",Firefox 111.0,,,2023-03-17 23:54:26,2023-03-17 23:54:27,0.709s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-07 - Payment PopUp on Close,Firefox 111.0,Pastikan PopUp payment berhasil ditutup ketika user klik close,,2023-03-17 23:54:27,2023-03-17 23:54:37,10.557s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:54:28,2023-03-17 23:54:32,4.400s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:54:32,2023-03-17 23:54:34,2.426s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:54:34,2023-03-17 23:54:36,1.166s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_SIGN UP_main-overlay buying""))",Firefox 111.0,,,2023-03-17 23:54:36,2023-03-17 23:54:36,0.395s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_Shopping Cart 1""))",Firefox 111.0,,,2023-03-17 23:54:36,2023-03-17 23:54:37,0.553s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Firefox 111.0,,,2023-03-17 23:54:37,2023-03-17 23:54:37,0.594s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Box/a_BUY NOW""), 0)",Firefox 111.0,,,2023-03-17 23:54:37,2023-03-17 23:54:37,0.337s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-03 - Show Box Item Info,Firefox 111.0,Pastikan Box Item Info ditampilkan di Homepage pada saat user akses,,2023-03-17 23:54:38,2023-03-17 23:54:47,9.990s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:54:38,2023-03-17 23:54:42,4.298s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:54:42,2023-03-17 23:54:44,2.015s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Box/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""), 0)",Firefox 111.0,,,2023-03-17 23:54:44,2023-03-17 23:54:46,1.265s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Box/a_BUY NOW""), 0)",Firefox 111.0,,,2023-03-17 23:54:46,2023-03-17 23:54:46,0.499s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_Midtrans Pillow""), ""Midtrans Pillow"")",Firefox 111.0,,,2023-03-17 23:54:46,2023-03-17 23:54:46,0.416s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/span_Get cozy with our new pillow""), ""Get cozy with our new pillow!"")",Firefox 111.0,,,2023-03-17 23:54:46,2023-03-17 23:54:47,0.351s,PASSED
+closeBrowser(),Firefox 111.0,,,2023-03-17 23:54:47,2023-03-17 23:54:47,0.642s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel,Firefox 111.0,Pastikan user diarahkan ke Homepage ketika klik label Cancel,,2023-03-17 23:54:48,2023-03-17 23:54:59,11.300s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:54:48,2023-03-17 23:54:52,3.449s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:54:52,2023-03-17 23:54:56,4.059s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:54:56,2023-03-17 23:54:57,1.491s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Firefox 111.0,,,2023-03-17 23:54:57,2023-03-17 23:54:58,0.418s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Firefox 111.0,,,2023-03-17 23:54:58,2023-03-17 23:54:58,0.553s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""))",Firefox 111.0,,,2023-03-17 23:54:58,2023-03-17 23:54:59,0.468s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-01 - Show Shopping Cart Form,Firefox 111.0,Pastikan Form Shopping Cart dimunculkan ketika user klik Checkout,,2023-03-17 23:54:59,2023-03-17 23:55:31,31.741s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:55:00,2023-03-17 23:55:04,3.633s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:55:04,2023-03-17 23:55:27,23.091s,PASSED
+"click(findTestObject(""Object Repository/Box/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:55:27,2023-03-17 23:55:28,0.971s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/span_Shopping Cart""))",Firefox 111.0,,,2023-03-17 23:55:28,2023-03-17 23:55:28,0.404s,PASSED
+"click(findTestObject(""Object Repository/Box/div_Customer Details""))",Firefox 111.0,,,2023-03-17 23:55:28,2023-03-17 23:55:29,0.539s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/div_Customer Details""))",Firefox 111.0,,,2023-03-17 23:55:29,2023-03-17 23:55:29,0.335s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_Customer Details""), ""Customer Details"")",Firefox 111.0,,,2023-03-17 23:55:29,2023-03-17 23:55:30,0.365s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/div_CHECKOUT""))",Firefox 111.0,,,2023-03-17 23:55:30,2023-03-17 23:55:30,0.529s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_CHECKOUT""), ""CHECKOUT"")",Firefox 111.0,,,2023-03-17 23:55:30,2023-03-17 23:55:31,0.576s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant,Firefox 111.0,Pastikan button Back to Merchant mengarahkan user ke Homepage,,2023-03-17 23:55:31,2023-03-17 23:55:43,12.381s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:55:31,2023-03-17 23:55:35,3.974s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:55:35,2023-03-17 23:55:38,3.032s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:55:38,2023-03-17 23:55:40,1.599s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/div_CHECKOUT""))",Firefox 111.0,,,2023-03-17 23:55:40,2023-03-17 23:55:40,0.721s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/a_GoPayQRIS""))",Firefox 111.0,,,2023-03-17 23:55:40,2023-03-17 23:55:42,1.452s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/button_Back to merchant""))",Firefox 111.0,,,2023-03-17 23:55:42,2023-03-17 23:55:43,0.757s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""), 0)",Firefox 111.0,,,2023-03-17 23:55:43,2023-03-17 23:55:43,0.264s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""))",Firefox 111.0,,,2023-03-17 23:55:43,2023-03-17 23:55:43,0.295s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-04 - Disable Amount when inserted Character,Firefox 111.0,Pastikan user tidak dapat menginput karakter di inputan Amount,,2023-03-17 23:55:43,2023-03-17 23:55:52,9.241s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:55:43,2023-03-17 23:55:47,3.237s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:55:47,2023-03-17 23:55:50,2.904s,PASSED
+"click(findTestObject(""Object Repository/NegAmountChar/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:55:50,2023-03-17 23:55:51,1.475s,PASSED
+"setText(findTestObject(""Object Repository/NegAmountChar/input_1_text-right""), ""1993"")",Firefox 111.0,,,2023-03-17 23:55:51,2023-03-17 23:55:52,0.654s,PASSED
+"setText(findTestObject(""Page_Sample Store/input_1_text-right""), ""abcdefg"", OPTIONAL)",Firefox 111.0,,,2023-03-17 23:55:52,2023-03-17 23:55:52,0.315s,PASSED
+"verifyElementText(findTestObject(""Object Repository/NegAmountChar/td_1,993""), ""1,993"")",Firefox 111.0,,,2023-03-17 23:55:52,2023-03-17 23:55:52,0.298s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-02 - Error on Huge Amount,Firefox 111.0,,,2023-03-17 23:55:52,2023-03-17 23:56:04,11.719s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:55:53,2023-03-17 23:55:56,3.167s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:55:56,2023-03-17 23:56:00,3.892s,PASSED
+"click(findTestObject(""Object Repository/NegAmountHuge/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:56:00,2023-03-17 23:56:00,0.670s,PASSED
+"setText(findTestObject(""Object Repository/NegAmountHuge/input_1_text-right""), ""1000000000000"")",Firefox 111.0,,,2023-03-17 23:56:00,2023-03-17 23:56:01,0.678s,PASSED
+"click(findTestObject(""Object Repository/NegAmountHuge/div_CHECKOUT""))",Firefox 111.0,,,2023-03-17 23:56:01,2023-03-17 23:56:02,0.710s,PASSED
+"verifyElementText(findTestObject(""Object Repository/NegAmountHuge/span_Sorry, something went wrong""), ""Sorry, something went wrong."")",Firefox 111.0,,,2023-03-17 23:56:02,2023-03-17 23:56:04,1.828s,PASSED
+closeBrowser(),Firefox 111.0,,,2023-03-17 23:56:04,2023-03-17 23:56:04,0.508s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-01 - Amount Dont Accept Negative Value,Firefox 111.0,,,2023-03-17 23:56:04,2023-03-17 23:56:13,9.351s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:56:04,2023-03-17 23:56:07,3.035s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:56:07,2023-03-17 23:56:10,2.683s,PASSED
+"click(findTestObject(""Object Repository/NegValdiateNegative/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:56:10,2023-03-17 23:56:12,1.498s,PASSED
+"setText(findTestObject(""Object Repository/NegValdiateNegative/input_1_text-right""), ""123"")",Firefox 111.0,,,2023-03-17 23:56:12,2023-03-17 23:56:12,0.635s,PASSED
+"setText(findTestObject(""Object Repository/NegValdiateNegative/input_1_text-right""), ""-"")",Firefox 111.0,,,2023-03-17 23:56:12,2023-03-17 23:56:13,0.864s,PASSED
+"verifyElementText(findTestObject(""Object Repository/NegValdiateNegative/td_123""), ""123"")",Firefox 111.0,,,2023-03-17 23:56:13,2023-03-17 23:56:13,0.346s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-03 - Error on Empty Customer Data,Firefox 111.0,,,2023-03-17 23:56:13,2023-03-17 23:56:32,18.495s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:56:14,2023-03-17 23:56:17,3.091s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:56:17,2023-03-17 23:56:21,4.078s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:56:21,2023-03-17 23:56:23,1.808s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/input_email""))",Firefox 111.0,,,2023-03-17 23:56:23,2023-03-17 23:56:24,0.501s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/input_email""), "" "")",Firefox 111.0,,,2023-03-17 23:56:24,2023-03-17 23:56:25,0.990s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/input_name""))",Firefox 111.0,,,2023-03-17 23:56:25,2023-03-17 23:56:25,0.556s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/input_name""), "" "")",Firefox 111.0,,,2023-03-17 23:56:25,2023-03-17 23:56:26,0.545s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/input_phone""))",Firefox 111.0,,,2023-03-17 23:56:26,2023-03-17 23:56:26,0.509s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/input_phone""), "" "")",Firefox 111.0,,,2023-03-17 23:56:26,2023-03-17 23:56:27,0.526s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/input_postal""))",Firefox 111.0,,,2023-03-17 23:56:27,2023-03-17 23:56:27,0.492s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/input_postal""), "" "")",Firefox 111.0,,,2023-03-17 23:56:27,2023-03-17 23:56:28,0.553s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/input_city""))",Firefox 111.0,,,2023-03-17 23:56:28,2023-03-17 23:56:28,0.576s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/input_city""), "" "")",Firefox 111.0,,,2023-03-17 23:56:28,2023-03-17 23:56:29,0.906s,PASSED
+"setText(findTestObject(""Object Repository/EmptyData/textarea_MidPlaza 2, 4th Floor Jl.Jend.Sudi_875190""), """")",Firefox 111.0,,,2023-03-17 23:56:29,2023-03-17 23:56:30,0.879s,PASSED
+"click(findTestObject(""Object Repository/EmptyData/div_CHECKOUT""))",Firefox 111.0,,,2023-03-17 23:56:30,2023-03-17 23:56:31,0.578s,PASSED
+"verifyElementText(findTestObject(""Object Repository/EmptyData/span_Sorry, something went wrong""), ""Sorry, something went wrong."")",Firefox 111.0,,,2023-03-17 23:56:31,2023-03-17 23:56:32,1.128s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-01 Error Register on Empty Input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8440eb0-0dc1-43a0-a28a-99650c1e39a4</testCaseGuid>
+</TestCaseEntity>

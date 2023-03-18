@@ -1,0 +1,12 @@
+{
+  "name": "4---codingtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RUN - Smoke Test,Firefox 111.0,,,2023-03-17 23:53:13,2023-03-17 23:55:15,2m - 2.396s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-02 - Register (Sign Up) Button,Firefox 111.0,Pastikan user diarahkan ke halaman registrasi ketika melakukan klik Button Register,,2023-03-17 23:53:13,2023-03-17 23:53:39,26.075s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:53:14,2023-03-17 23:53:29,14.910s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:53:29,2023-03-17 23:53:33,4.396s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Register/div_Ready to integrate SNAPSIGN UP""), 0)",Firefox 111.0,,,2023-03-17 23:53:33,2023-03-17 23:53:34,0.923s,PASSED
+"click(findTestObject(""Object Repository/Register/a_SIGN UP""))",Firefox 111.0,,,2023-03-17 23:53:34,2023-03-17 23:53:35,1.027s,PASSED
+"switchToWindowTitle(""MAP | Registration"")",Firefox 111.0,,,2023-03-17 23:53:35,2023-03-17 23:53:36,0.904s,PASSED
+"assert getUrl() == ""https://dashboard.midtrans.com/register""",Firefox 111.0,,,2023-03-17 23:53:36,2023-03-17 23:53:36,0.080s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Register/h1_Registration""), ""Registration"")",Firefox 111.0,,,2023-03-17 23:53:36,2023-03-17 23:53:38,2.441s,PASSED
+closeBrowser(),Firefox 111.0,,,2023-03-17 23:53:38,2023-03-17 23:53:39,0.753s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout,Firefox 111.0,Pastikan PopUp payment berhasil ditampilkan ketika user klik checkout,,2023-03-17 23:53:39,2023-03-17 23:54:01,21.354s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:53:40,2023-03-17 23:53:49,9.031s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:53:49,2023-03-17 23:53:51,2.106s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:53:51,2023-03-17 23:53:52,1.288s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/div_CHECKOUT""))",Firefox 111.0,,,2023-03-17 23:53:52,2023-03-17 23:53:53,0.745s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TEST_modal-iframe""))",Firefox 111.0,,,2023-03-17 23:53:53,2023-03-17 23:53:58,4.610s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_DEMO STORE""))",Firefox 111.0,,,2023-03-17 23:53:58,2023-03-17 23:53:58,0.612s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TotalChoose within235907Rp20.000Order I_01234c""))",Firefox 111.0,,,2023-03-17 23:53:58,2023-03-17 23:53:59,0.515s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/img_Rp20.000_logo""))",Firefox 111.0,,,2023-03-17 23:53:59,2023-03-17 23:54:00,0.946s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TotalChoose within235849Rp20.000Order I_b557cd""))",Firefox 111.0,,,2023-03-17 23:54:00,2023-03-17 23:54:01,0.950s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-07 - Payment PopUp on Close,Firefox 111.0,Pastikan PopUp payment berhasil ditutup ketika user klik close,,2023-03-17 23:54:01,2023-03-17 23:54:18,16.867s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:54:01,2023-03-17 23:54:06,4.155s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:54:06,2023-03-17 23:54:13,7.126s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:54:13,2023-03-17 23:54:15,2.474s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_SIGN UP_main-overlay buying""))",Firefox 111.0,,,2023-03-17 23:54:15,2023-03-17 23:54:16,0.529s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_Shopping Cart 1""))",Firefox 111.0,,,2023-03-17 23:54:16,2023-03-17 23:54:16,0.606s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Firefox 111.0,,,2023-03-17 23:54:16,2023-03-17 23:54:17,0.625s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Box/a_BUY NOW""), 0)",Firefox 111.0,,,2023-03-17 23:54:17,2023-03-17 23:54:18,0.618s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-03 - Show Box Item Info,Firefox 111.0,Pastikan Box Item Info ditampilkan di Homepage pada saat user akses,,2023-03-17 23:54:18,2023-03-17 23:54:30,12.354s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:54:18,2023-03-17 23:54:22,4.138s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:54:22,2023-03-17 23:54:27,4.573s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Box/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""), 0)",Firefox 111.0,,,2023-03-17 23:54:27,2023-03-17 23:54:28,0.907s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Box/a_BUY NOW""), 0)",Firefox 111.0,,,2023-03-17 23:54:28,2023-03-17 23:54:28,0.332s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_Midtrans Pillow""), ""Midtrans Pillow"")",Firefox 111.0,,,2023-03-17 23:54:28,2023-03-17 23:54:29,0.369s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/span_Get cozy with our new pillow""), ""Get cozy with our new pillow!"")",Firefox 111.0,,,2023-03-17 23:54:29,2023-03-17 23:54:29,0.563s,PASSED
+closeBrowser(),Firefox 111.0,,,2023-03-17 23:54:29,2023-03-17 23:54:30,0.724s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel,Firefox 111.0,Pastikan user diarahkan ke Homepage ketika klik label Cancel,,2023-03-17 23:54:30,2023-03-17 23:54:40,10.309s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:54:31,2023-03-17 23:54:34,3.569s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:54:34,2023-03-17 23:54:38,3.068s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:54:38,2023-03-17 23:54:39,1.416s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Firefox 111.0,,,2023-03-17 23:54:39,2023-03-17 23:54:39,0.423s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Firefox 111.0,,,2023-03-17 23:54:39,2023-03-17 23:54:40,0.600s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""))",Firefox 111.0,,,2023-03-17 23:54:40,2023-03-17 23:54:40,0.338s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-01 - Show Shopping Cart Form,Firefox 111.0,Pastikan Form Shopping Cart dimunculkan ketika user klik Checkout,,2023-03-17 23:54:40,2023-03-17 23:54:54,13.318s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:54:41,2023-03-17 23:54:45,3.906s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:54:45,2023-03-17 23:54:48,3.342s,PASSED
+"click(findTestObject(""Object Repository/Box/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:54:48,2023-03-17 23:54:50,1.961s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/span_Shopping Cart""))",Firefox 111.0,,,2023-03-17 23:54:50,2023-03-17 23:54:51,0.572s,PASSED
+"click(findTestObject(""Object Repository/Box/div_Customer Details""))",Firefox 111.0,,,2023-03-17 23:54:51,2023-03-17 23:54:51,0.583s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/div_Customer Details""))",Firefox 111.0,,,2023-03-17 23:54:51,2023-03-17 23:54:52,0.543s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_Customer Details""), ""Customer Details"")",Firefox 111.0,,,2023-03-17 23:54:52,2023-03-17 23:54:53,0.924s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/div_CHECKOUT""))",Firefox 111.0,,,2023-03-17 23:54:53,2023-03-17 23:54:53,0.401s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_CHECKOUT""), ""CHECKOUT"")",Firefox 111.0,,,2023-03-17 23:54:53,2023-03-17 23:54:54,0.525s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant,Firefox 111.0,Pastikan button Back to Merchant mengarahkan user ke Homepage,,2023-03-17 23:54:54,2023-03-17 23:55:15,21.254s,PASSED
+"openBrowser("""")",Firefox 111.0,,,2023-03-17 23:54:55,2023-03-17 23:54:58,3.420s,PASSED
+navigateToUrl(web),Firefox 111.0,,,2023-03-17 23:54:58,2023-03-17 23:55:03,4.379s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/a_BUY NOW""))",Firefox 111.0,,,2023-03-17 23:55:03,2023-03-17 23:55:04,1.569s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/div_CHECKOUT""))",Firefox 111.0,,,2023-03-17 23:55:04,2023-03-17 23:55:05,0.716s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/a_GoPayQRIS""))",Firefox 111.0,,,2023-03-17 23:55:05,2023-03-17 23:55:14,8.831s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/button_Back to merchant""))",Firefox 111.0,,,2023-03-17 23:55:14,2023-03-17 23:55:14,0.739s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""), 0)",Firefox 111.0,,,2023-03-17 23:55:14,2023-03-17 23:55:15,0.274s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""))",Firefox 111.0,,,2023-03-17 23:55:15,2023-03-17 23:55:15,0.306s,PASSED

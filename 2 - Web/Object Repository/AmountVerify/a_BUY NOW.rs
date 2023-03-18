@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_BUY NOW</name>
+   <tag></tag>
+   <elementGuidId>129349f6-c4ef-4b29-80ad-50169ea6c4c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.buy</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div/div/div[2]/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0922c116-dc91-49f1-987b-e9767147c474</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn buy</value>
+      <webElementGuid>94b57bab-0273-48c7-b2e5-bb0af1adeeee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>aa0bbaba-c398-472e-9250-9e7b5939fb3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.0.0.2.0.0.5</value>
+      <webElementGuid>b9c4c8e2-dd6e-4fa9-8b15-1d272fac495c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BUY NOW</value>
+      <webElementGuid>509ba287-2874-4917-a322-947c148898a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;ss-box-wrapper&quot;]/div[@class=&quot;ss-box&quot;]/div[@class=&quot;ss-box-inner&quot;]/a[@class=&quot;btn buy&quot;]</value>
+      <webElementGuid>29afdce5-9d91-4f1f-905d-0f42564efbef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div/div/div[2]/div/div/a</value>
+      <webElementGuid>8c4c4261-c4cb-462b-9d7a-d1b6d97d7760</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'BUY NOW')]</value>
+      <webElementGuid>0191b7da-6546-4a2e-bb80-10d26f5d9427</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get cozy with our new pillow!'])[1]/following::a[1]</value>
+      <webElementGuid>fe38c4f3-1dc8-4a3f-94a3-c04792ae77b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/following::a[1]</value>
+      <webElementGuid>28982f4c-2c68-42d3-9c64-f41c07ac70e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ready to integrate SNAP?'])[1]/preceding::a[1]</value>
+      <webElementGuid>b095625e-47ec-4deb-9d86-0c531e118891</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN UP  →'])[1]/preceding::a[1]</value>
+      <webElementGuid>3bbf5778-a22a-4f97-b467-9b5c3234598b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='BUY NOW']/parent::*</value>
+      <webElementGuid>f89a99fc-2d7e-4a93-9516-20e2c6640173</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[3]</value>
+      <webElementGuid>5d4d3114-dd66-4c99-b5b9-0ea597e9ef8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a</value>
+      <webElementGuid>e16d7d12-bb4b-4d09-8f3b-ea314f03d0a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'BUY NOW' or . = 'BUY NOW')]</value>
+      <webElementGuid>a0f1fe2c-94f8-4821-94e2-18a2e72e9599</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

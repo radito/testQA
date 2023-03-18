@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Registration</name>
+   <tag></tag>
+   <elementGuidId>2be511e8-efd5-4d9c-ad1a-f197d81726f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Business name'])[1]/preceding::h1[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>e0c0eae6-1c10-4ade-9d1c-037701fb2b27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Registration</value>
+      <webElementGuid>ae9f9d1f-9974-48eb-9b98-9cd6d2b8b165</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;scroll-able&quot;]/div[@class=&quot;l-content clearfix no-background&quot;]/div[@class=&quot;f-main-content fp full&quot;]/h1[1]</value>
+      <webElementGuid>04197189-9302-4edc-9cb7-57b37d79ffa3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business name'])[1]/preceding::h1[1]</value>
+      <webElementGuid>684fb232-8225-4766-9b54-40e899e6f578</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full name'])[1]/preceding::h1[1]</value>
+      <webElementGuid>70cc1f9a-3982-4956-a5ef-b7d03f7428ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Registration']/parent::*</value>
+      <webElementGuid>a1b9ce9b-5a7f-4c39-a3b9-0424170475b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>327a391a-a696-4aea-8dde-cba8fb578dab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Registration' or . = 'Registration')]</value>
+      <webElementGuid>a2a70e96-23e4-4143-a06d-13d08036b513</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

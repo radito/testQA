@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tr_AddressMidPlaza 2, 4th Floor Jl.Jend.Sud_0a63fb</name>
+   <tag></tag>
+   <elementGuidId>e5f5daa3-4842-4dde-8d84-0926b126127f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div/div[2]/div/div[4]/table/tbody/tr[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>tr</value>
+      <webElementGuid>a11663d9-e4a7-4f9e-a654-9269864a8be1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>table-content</value>
+      <webElementGuid>129dabab-47fe-4c56-b2a7-c1695020e6ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.0.1.0.3.0.0.4</value>
+      <webElementGuid>9aab1e35-a6e5-415f-8b04-8c2c144ab937</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AddressMidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11</value>
+      <webElementGuid>4154d311-c36b-4f9b-a574-5f75bd765767</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;cart-content buying&quot;]/div[@class=&quot;cart-inner&quot;]/div[@class=&quot;cart-section&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[@class=&quot;table-content&quot;]</value>
+      <webElementGuid>5b88e454-ed66-4e96-838f-753df4ab2d13</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div/div[2]/div/div[4]/table/tbody/tr[5]</value>
+      <webElementGuid>0e6f2376-c0d9-41f2-8d22-5cc237735618</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/following::tr[1]</value>
+      <webElementGuid>ffc41fd9-a587-42f3-937b-957bcb9f20e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone no'])[1]/following::tr[2]</value>
+      <webElementGuid>f2639ee0-a7fd-4c7c-8032-57ce0eff31af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]</value>
+      <webElementGuid>52907690-897e-458b-ad12-92cac8d456e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//tr[(text() = 'AddressMidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11' or . = 'AddressMidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11')]</value>
+      <webElementGuid>8605b7a8-e924-4a72-a1f3-7b4065331386</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

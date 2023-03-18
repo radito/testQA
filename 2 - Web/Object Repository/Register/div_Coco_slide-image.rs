@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Coco_slide-image</name>
+   <tag></tag>
+   <elementGuidId>d9abdab2-55c0-4248-967b-2e4ddc890e61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.item.active > div.slide-image</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='carousel']/div/div[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bc50dc18-38e8-4a42-af64-4ca3d8eb5f75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slide-image</value>
+      <webElementGuid>5c570796-690a-4cd4-bfbe-ebe8abf51ff5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.0.0.1.0.$3.0</value>
+      <webElementGuid>0eaa4375-a76f-49fd-9746-c82552eb2c7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;carousel&quot;)/div[@class=&quot;carousel-inner&quot;]/div[@class=&quot;item active&quot;]/div[@class=&quot;slide-image&quot;]</value>
+      <webElementGuid>3929ab72-bdb5-491b-85e2-dc9ec7843a25</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='carousel']/div/div[4]/div</value>
+      <webElementGuid>05b7b145-b79d-4e77-8761-455d63974516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div</value>
+      <webElementGuid>1cccefa4-7d7c-4b7d-abc9-6911f3c3db63</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

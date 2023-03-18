@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Back to merchant</name>
+   <tag></tag>
+   <elementGuidId>cbd5f2ea-d62f-4a9a-8e1f-6c453d357466</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.full.primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b753de47-5075-4fd4-b223-b90a05121540</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8b944f7d-9d0a-4f8d-928a-c3abfbb4ab6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn full primary</value>
+      <webElementGuid>7f57df45-8fa2-4730-8782-ebe940f18e6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Back to merchant</value>
+      <webElementGuid>1d16fc61-16c0-42dd-9c83-0e121b8d22da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application&quot;)/div[@class=&quot;page-container scroll&quot;]/div[@class=&quot;button-down&quot;]/button[@class=&quot;btn full primary&quot;]</value>
+      <webElementGuid>0e7c7b3b-9338-447e-b477-c7e7ece57c81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/BackToMerchant/iframe_Save settings_popup_1679041758593</value>
+      <webElementGuid>a28d88c6-8c8d-4ada-aa28-2818ac995e26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>90526f62-9134-4cc4-9fbc-5835ac4484e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='application']/div/div[5]/button</value>
+      <webElementGuid>1397564b-3867-480c-9770-c2cfe06072bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment complete.'])[1]/following::button[1]</value>
+      <webElementGuid>ea32f3e3-b806-434c-8f63-73e1d6f09464</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm payment in the app.'])[1]/following::button[1]</value>
+      <webElementGuid>f2a17a30-c252-4184-957f-07d7f9825822</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Back to merchant']/parent::*</value>
+      <webElementGuid>e56bd8c3-c720-46b4-a98e-c23fc22c2065</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>e3dd2e94-3352-4951-a3d0-aaf05ce33d4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Back to merchant' or . = 'Back to merchant')]</value>
+      <webElementGuid>e3131663-d58f-4b76-880b-bc018925778a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

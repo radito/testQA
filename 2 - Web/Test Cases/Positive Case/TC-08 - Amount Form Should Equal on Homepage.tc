@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pastikan Amount di PopUp Checkout Sesuai dengan Amount yang diinput</description>
+   <name>TC-08 - Amount Form Should Equal on Homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>225f7b13-831a-40f7-8836-51abf489de1c</testCaseGuid>
+</TestCaseEntity>

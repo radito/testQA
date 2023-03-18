@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_TotalChoose within235907Rp20.000Order I_01234c</name>
+   <tag></tag>
+   <elementGuidId>4a43d557-f035-4cc4-9d30-6d156cf8fcd7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.order-box</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='header']/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>609854af-0e4e-4734-9ddd-a323f34203e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>order-box</value>
+      <webElementGuid>7e64f065-c9b6-4999-b7a4-d94f28836492</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TotalChoose within23:59:07Rp20.000Order ID #sample-store-1679043731</value>
+      <webElementGuid>9fcac473-e641-4e9e-9ce9-729af9909744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;order-header&quot;]/div[@class=&quot;order-box&quot;]</value>
+      <webElementGuid>08b6ac3e-a2d3-4e75-984a-61c25107748a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/PopupCheckout/iframe_concat(id(, , snap-midtrans, , ))_po_9b18a6</value>
+      <webElementGuid>0c88dbbd-66b3-4a76-a84f-444cb1bab53e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='header']/div[2]/div</value>
+      <webElementGuid>0c1a2073-292d-4885-8636-2d56317c4deb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEMO STORE'])[1]/following::div[3]</value>
+      <webElementGuid>247fd428-0c76-4759-9c31-c7fd08441f71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TEST'])[1]/following::div[8]</value>
+      <webElementGuid>16133b7b-edd8-44a2-b1dd-2db438c42f17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div</value>
+      <webElementGuid>6b1a4769-c981-4662-a8f4-2b9c860e5639</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'TotalChoose within23:59:07Rp20.000Order ID #sample-store-1679043731' or . = 'TotalChoose within23:59:07Rp20.000Order ID #sample-store-1679043731')]</value>
+      <webElementGuid>8fe5182d-e0ac-42f8-b961-425a909f247c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Customer Details</name>
+   <tag></tag>
+   <elementGuidId>cd359474-0df6-4a79-b45b-3f0772bc5459</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div/div[2]/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ff63e9d3-a4db-499c-9d9b-739b3db2b6c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart-head</value>
+      <webElementGuid>84ac610d-178e-46f9-8ef6-33248602ea38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.0.1.0.2</value>
+      <webElementGuid>aee2d962-ecfa-421e-b582-94b1441adf57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customer Details</value>
+      <webElementGuid>00fdd38c-9f8a-4098-999e-bdf07c4a300a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;cart-content buying&quot;]/div[@class=&quot;cart-inner&quot;]/div[@class=&quot;cart-head&quot;]</value>
+      <webElementGuid>accddba3-b522-4965-b3a6-84d380a94c24</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div/div[2]/div/div[3]</value>
+      <webElementGuid>3df0d8d3-6ff2-49ad-97a5-e521362f0933</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::div[1]</value>
+      <webElementGuid>0f88cd0d-b249-4d19-8d6b-3ec890521e97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='× 1'])[1]/following::div[1]</value>
+      <webElementGuid>1b34b0bc-8908-438a-b493-f303bea2e299</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::div[1]</value>
+      <webElementGuid>237edefb-0d60-49c0-857d-547f09a3ec9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::div[1]</value>
+      <webElementGuid>f16eef29-c67e-4fd4-b8a7-69186325022e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Customer Details']/parent::*</value>
+      <webElementGuid>f662b069-f725-4732-ae9d-b2477f90268f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]</value>
+      <webElementGuid>698dd893-8fc8-4079-8287-badcc20983cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Customer Details' or . = 'Customer Details')]</value>
+      <webElementGuid>f9ae5870-450d-41d4-9849-c8a422884f11</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

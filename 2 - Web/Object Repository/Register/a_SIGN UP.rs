@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_SIGN UP</name>
+   <tag></tag>
+   <elementGuidId>4a148d8b-cecb-45a3-861c-4999dcef3657</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-signup</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div/div/div[2]/div/div/div[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>96f74cf1-6a56-4f98-a7e1-ba79c708747a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://account.midtrans.com/register</value>
+      <webElementGuid>99eafb96-9073-4d77-b8be-8d1378264459</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>0e4c435b-60d1-40ba-bc6f-83c98151f313</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-signup</value>
+      <webElementGuid>4a9e0a6d-8a80-499d-8fa2-0979347b76e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.0.0.2.0.0.6.1</value>
+      <webElementGuid>d32f456a-67b4-402a-9e9d-ffb7289fdd4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SIGN UP  →</value>
+      <webElementGuid>adbef151-aa2b-471e-88b4-0286313520f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;ss-box-wrapper&quot;]/div[@class=&quot;ss-box&quot;]/div[@class=&quot;ss-box-inner&quot;]/div[@class=&quot;midtrans-signup&quot;]/a[@class=&quot;btn btn-signup&quot;]</value>
+      <webElementGuid>5ceeff87-8e9d-4673-99f7-5ca23a69b292</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div/div/div[2]/div/div/div[4]/a</value>
+      <webElementGuid>83640306-67c6-47de-a158-fdd1920ce875</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'SIGN UP  →')]</value>
+      <webElementGuid>6beb949b-fe6c-4e18-810e-8b43854429a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ready to integrate SNAP?'])[1]/following::a[1]</value>
+      <webElementGuid>ccd59bdd-4ad7-4ec9-ad93-169ef0dbda1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get cozy with our new pillow!'])[1]/following::a[2]</value>
+      <webElementGuid>f5bf2d83-7aa3-495a-8902-54c8d142bd86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN UP to MIDTRANS →'])[1]/preceding::a[1]</value>
+      <webElementGuid>dbd727f8-cd78-479f-a986-f1ee1f41ae12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SIGN UP  →']/parent::*</value>
+      <webElementGuid>b07970e1-ddb8-40e4-b099-fc7870e3768c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://account.midtrans.com/register')]</value>
+      <webElementGuid>0e6bae1f-6739-4627-9f73-3bb82c771f45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[4]/a</value>
+      <webElementGuid>15013180-1104-49d6-9e54-a76ee88d09f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://account.midtrans.com/register' and (text() = 'SIGN UP  →' or . = 'SIGN UP  →')]</value>
+      <webElementGuid>643a56fd-8f73-46fa-9cbc-2d4f9545eee3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

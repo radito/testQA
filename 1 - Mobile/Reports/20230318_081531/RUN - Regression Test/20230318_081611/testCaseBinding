@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/Positive Case/TC-03 Checkout","testCaseId":"Test Cases/Positive Case/TC-03 Checkout","iterationVariableName":""}
+{"testCaseName":"Test Cases/Positive Case/TC-02 Logout","testCaseId":"Test Cases/Positive Case/TC-02 Logout","iterationVariableName":""}
+{"testCaseName":"Test Cases/Positive Case/TC-01 LoginApp","testCaseId":"Test Cases/Positive Case/TC-01 LoginApp","iterationVariableName":""}
+{"testCaseName":"Test Cases/Positive Case/TC-05 Wishlist","testCaseId":"Test Cases/Positive Case/TC-05 Wishlist","iterationVariableName":""}
+{"testCaseName":"Test Cases/Positive Case/TC-04 Order Detail","testCaseId":"Test Cases/Positive Case/TC-04 Order Detail","iterationVariableName":""}
+{"testCaseName":"Test Cases/Negative Case/TC-02 Error Register on Password Confirm","testCaseId":"Test Cases/Negative Case/TC-02 Error Register on Password Confirm","iterationVariableName":""}
+{"testCaseName":"Test Cases/Negative Case/TC-04 Error Login on Empty Password","testCaseId":"Test Cases/Negative Case/TC-04 Error Login on Empty Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Negative Case/TC-01 Error Register on Empty Input","testCaseId":"Test Cases/Negative Case/TC-01 Error Register on Empty Input","iterationVariableName":""}
+{"testCaseName":"Test Cases/Negative Case/TC-05 Error Register on Empty Email","testCaseId":"Test Cases/Negative Case/TC-05 Error Register on Empty Email","iterationVariableName":""}
+{"testCaseName":"Test Cases/Negative Case/TC-03 Error Login on Empty Values","testCaseId":"Test Cases/Negative Case/TC-03 Error Login on Empty Values","iterationVariableName":""}

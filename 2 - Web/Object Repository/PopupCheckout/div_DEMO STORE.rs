@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DEMO STORE</name>
+   <tag></tag>
+   <elementGuidId>b7315086-474d-4875-9098-97eeec005925</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.title-bar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='header']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cb538ad2-18b5-437a-b016-e7c859f67865</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title-bar</value>
+      <webElementGuid>4088c9d2-9463-42cd-8053-86a0408cc022</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DEMO STORE</value>
+      <webElementGuid>1329452f-4467-47de-a529-a08f3cb8532c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;title-bar&quot;]</value>
+      <webElementGuid>c9da3edd-54da-4af2-bfcf-d8917df0bf65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/PopupCheckout/iframe_concat(id(, , snap-midtrans, , ))_po_9b18a6</value>
+      <webElementGuid>a57ada61-5901-49b6-b5e0-2ede8488ccc8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='header']/div</value>
+      <webElementGuid>535f8390-f984-43df-ba5a-957a67734f8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TEST'])[1]/following::div[3]</value>
+      <webElementGuid>2fb870e9-6a11-476e-a0e2-5c4a6e8c7d8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::div[4]</value>
+      <webElementGuid>4fe7be02-2803-4688-b764-a48972f30213</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/div</value>
+      <webElementGuid>c96a89a4-2c7e-4b02-95d4-fff19981821f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DEMO STORE' or . = 'DEMO STORE')]</value>
+      <webElementGuid>178ccfdf-ab81-4610-9d05-274005b39b9f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

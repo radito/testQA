@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pastikan PopUp payment berhasil ditutup ketika user klik close</description>
+   <name>TC-07 - Payment PopUp on Close</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dde029e9-5ab8-45e4-bd91-980f04207f8d</testCaseGuid>
+</TestCaseEntity>

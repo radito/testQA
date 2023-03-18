@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RUN - Smoke Test,Chrome 111.0.0.0,,,2023-03-17 23:52:46,2023-03-17 23:57:06,4m - 19.983s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-02 - Register (Sign Up) Button,Chrome 111.0.0.0,Pastikan user diarahkan ke halaman registrasi ketika melakukan klik Button Register,,2023-03-17 23:52:46,2023-03-17 23:53:44,58.054s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:52:47,2023-03-17 23:52:55,8.867s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:52:55,2023-03-17 23:52:59,3.415s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Register/div_Ready to integrate SNAPSIGN UP""), 0)",Chrome 111.0.0.0,,,2023-03-17 23:52:59,2023-03-17 23:53:00,0.763s,PASSED
+"click(findTestObject(""Object Repository/Register/a_SIGN UP""))",Chrome 111.0.0.0,,,2023-03-17 23:53:00,2023-03-17 23:53:00,0.637s,PASSED
+"switchToWindowTitle(""MAP | Registration"")",Chrome 111.0.0.0,,,2023-03-17 23:53:00,2023-03-17 23:53:43,42.528s,PASSED
+"assert getUrl() == ""https://dashboard.midtrans.com/register""",Chrome 111.0.0.0,,,2023-03-17 23:53:43,2023-03-17 23:53:43,0.095s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Register/h1_Registration""), ""Registration"")",Chrome 111.0.0.0,,,2023-03-17 23:53:43,2023-03-17 23:53:44,0.716s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-17 23:53:44,2023-03-17 23:53:44,0.647s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout,Chrome 111.0.0.0,Pastikan PopUp payment berhasil ditampilkan ketika user klik checkout,,2023-03-17 23:53:44,2023-03-17 23:54:53,1m - 8.876s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:53:44,2023-03-17 23:53:53,8.120s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:53:53,2023-03-17 23:53:59,6.387s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:53:59,2023-03-17 23:54:06,6.991s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/div_CHECKOUT""))",Chrome 111.0.0.0,,,2023-03-17 23:54:06,2023-03-17 23:54:20,14.069s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TEST_modal-iframe""))",Chrome 111.0.0.0,,,2023-03-17 23:54:20,2023-03-17 23:54:46,25.795s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_DEMO STORE""))",Chrome 111.0.0.0,,,2023-03-17 23:54:46,2023-03-17 23:54:47,0.839s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TotalChoose within235907Rp20.000Order I_01234c""))",Chrome 111.0.0.0,,,2023-03-17 23:54:47,2023-03-17 23:54:48,0.955s,PASSED
+"click(findTestObject(""Object Repository/PopupCheckout/img_Rp20.000_logo""))",Chrome 111.0.0.0,,,2023-03-17 23:54:48,2023-03-17 23:54:52,4.099s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCheckout/div_TotalChoose within235849Rp20.000Order I_b557cd""))",Chrome 111.0.0.0,,,2023-03-17 23:54:52,2023-03-17 23:54:53,1.327s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-07 - Payment PopUp on Close,Chrome 111.0.0.0,Pastikan PopUp payment berhasil ditutup ketika user klik close,,2023-03-17 23:54:53,2023-03-17 23:55:23,29.976s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:54:54,2023-03-17 23:55:05,11.045s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:55:05,2023-03-17 23:55:16,10.787s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:55:16,2023-03-17 23:55:20,4.395s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_SIGN UP_main-overlay buying""))",Chrome 111.0.0.0,,,2023-03-17 23:55:20,2023-03-17 23:55:21,1.049s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_Shopping Cart 1""))",Chrome 111.0.0.0,,,2023-03-17 23:55:21,2023-03-17 23:55:22,0.513s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Chrome 111.0.0.0,,,2023-03-17 23:55:22,2023-03-17 23:55:23,0.723s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Box/a_BUY NOW""), 0)",Chrome 111.0.0.0,,,2023-03-17 23:55:23,2023-03-17 23:55:23,0.525s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-03 - Show Box Item Info,Chrome 111.0.0.0,Pastikan Box Item Info ditampilkan di Homepage pada saat user akses,,2023-03-17 23:55:23,2023-03-17 23:55:42,19.062s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:55:24,2023-03-17 23:55:29,5.512s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:55:29,2023-03-17 23:55:36,7.300s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Box/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""), 0)",Chrome 111.0.0.0,,,2023-03-17 23:55:36,2023-03-17 23:55:37,0.927s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Box/a_BUY NOW""), 0)",Chrome 111.0.0.0,,,2023-03-17 23:55:37,2023-03-17 23:55:38,0.430s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_Midtrans Pillow""), ""Midtrans Pillow"")",Chrome 111.0.0.0,,,2023-03-17 23:55:38,2023-03-17 23:55:41,3.166s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/span_Get cozy with our new pillow""), ""Get cozy with our new pillow!"")",Chrome 111.0.0.0,,,2023-03-17 23:55:41,2023-03-17 23:55:42,1.051s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-17 23:55:42,2023-03-17 23:55:42,0.206s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel,Chrome 111.0.0.0,Pastikan user diarahkan ke Homepage ketika klik label Cancel,,2023-03-17 23:55:42,2023-03-17 23:56:07,24.875s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:55:43,2023-03-17 23:55:48,5.134s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:55:48,2023-03-17 23:55:55,7.492s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:55:55,2023-03-17 23:55:59,3.412s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Chrome 111.0.0.0,,,2023-03-17 23:55:59,2023-03-17 23:55:59,0.669s,PASSED
+"click(findTestObject(""Object Repository/PopupCancel/div_cancel""))",Chrome 111.0.0.0,,,2023-03-17 23:55:59,2023-03-17 23:56:05,5.402s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/PopupCancel/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""))",Chrome 111.0.0.0,,,2023-03-17 23:56:05,2023-03-17 23:56:07,2.360s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-01 - Show Shopping Cart Form,Chrome 111.0.0.0,Pastikan Form Shopping Cart dimunculkan ketika user klik Checkout,,2023-03-17 23:56:07,2023-03-17 23:56:39,31.429s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:56:08,2023-03-17 23:56:18,10.428s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:56:18,2023-03-17 23:56:24,5.552s,PASSED
+"click(findTestObject(""Object Repository/Box/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:56:24,2023-03-17 23:56:27,3.214s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/span_Shopping Cart""))",Chrome 111.0.0.0,,,2023-03-17 23:56:27,2023-03-17 23:56:30,3.145s,PASSED
+"click(findTestObject(""Object Repository/Box/div_Customer Details""))",Chrome 111.0.0.0,,,2023-03-17 23:56:30,2023-03-17 23:56:31,0.771s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/div_Customer Details""))",Chrome 111.0.0.0,,,2023-03-17 23:56:31,2023-03-17 23:56:32,1.101s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_Customer Details""), ""Customer Details"")",Chrome 111.0.0.0,,,2023-03-17 23:56:32,2023-03-17 23:56:38,5.407s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Box/div_CHECKOUT""))",Chrome 111.0.0.0,,,2023-03-17 23:56:38,2023-03-17 23:56:38,0.608s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Box/div_CHECKOUT""), ""CHECKOUT"")",Chrome 111.0.0.0,,,2023-03-17 23:56:38,2023-03-17 23:56:39,0.305s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant,Chrome 111.0.0.0,Pastikan button Back to Merchant mengarahkan user ke Homepage,,2023-03-17 23:56:39,2023-03-17 23:57:06,27.124s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-17 23:56:39,2023-03-17 23:56:43,4.679s,PASSED
+navigateToUrl(web),Chrome 111.0.0.0,,,2023-03-17 23:56:43,2023-03-17 23:56:46,2.703s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/a_BUY NOW""))",Chrome 111.0.0.0,,,2023-03-17 23:56:46,2023-03-17 23:56:51,4.743s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/div_CHECKOUT""))",Chrome 111.0.0.0,,,2023-03-17 23:56:51,2023-03-17 23:56:55,4.248s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/a_GoPayQRIS""))",Chrome 111.0.0.0,,,2023-03-17 23:56:55,2023-03-17 23:57:03,8.302s,PASSED
+"click(findTestObject(""Object Repository/BackToMerchant/button_Back to merchant""))",Chrome 111.0.0.0,,,2023-03-17 23:57:03,2023-03-17 23:57:05,1.306s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""), 0)",Chrome 111.0.0.0,,,2023-03-17 23:57:05,2023-03-17 23:57:05,0.417s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0""))",Chrome 111.0.0.0,,,2023-03-17 23:57:05,2023-03-17 23:57:06,0.477s,PASSED

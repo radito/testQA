@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pastikan PopUp payment berhasil ditampilkan ketika user klik checkout</description>
+   <name>TC-06 - Payment PopUp on Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1892bf3-59e0-4e09-9d7a-66d9a241af16</testCaseGuid>
+</TestCaseEntity>

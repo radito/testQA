@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RUN - Regression Test,,,,2023-03-18 08:20:49,2023-03-18 08:25:46,4m - 57.545s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-03 Checkout,,,,2023-03-18 08:20:49,2023-03-18 08:21:33,43.302s,PASSED
+"callTestCase(findTestCase(""Positive Case/TC-01 LoginApp""), [:], STOP_ON_FAILURE)",,,,2023-03-18 08:20:50,2023-03-18 08:21:26,36.370s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.support.v7.app.ActionBarTab""), 0)",,,,2023-03-18 08:21:26,2023-03-18 08:21:27,0.866s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Checkout""), 0)",,,,2023-03-18 08:21:27,2023-03-18 08:21:28,1.276s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Checkout/android.widget.TextView - Checkout (1)""), 0)",,,,2023-03-18 08:21:28,2023-03-18 08:21:28,0.217s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.ImageView""), 0)",,,,2023-03-18 08:21:28,2023-03-18 08:21:29,0.807s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Confirm""), 0)",,,,2023-03-18 08:21:29,2023-03-18 08:21:31,1.229s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Checkout/android.widget.TextView - PAYMENT METHOD""), ""PAYMENT METHOD"")",,,,2023-03-18 08:21:31,2023-03-18 08:21:31,0.201s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.ImageView (1)""), 0)",,,,2023-03-18 08:21:31,2023-03-18 08:21:31,0.654s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.TextView - Process""), 0)",,,,2023-03-18 08:21:31,2023-03-18 08:21:32,0.199s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Checkout/android.widget.TextView - Congratulations""), ""Congratulations!"")",,,,2023-03-18 08:21:32,2023-03-18 08:21:33,1.072s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-02 Logout,,,,2023-03-18 08:21:33,2023-03-18 08:21:59,26.710s,PASSED
+"callTestCase(findTestCase(""Positive Case/TC-01 LoginApp""), [:], STOP_ON_FAILURE)",,,,2023-03-18 08:21:33,2023-03-18 08:21:58,25.515s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Logout/android.widget.TextView - Sign Out""), ""Sign Out"")",,,,2023-03-18 08:21:58,2023-03-18 08:21:59,0.119s,PASSED
+"tap(findTestObject(""Object Repository/Logout/android.widget.TextView - Sign Out""), 0)",,,,2023-03-18 08:21:59,2023-03-18 08:21:59,0.200s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Logout/android.widget.TextView - Guest""), ""Guest"")",,,,2023-03-18 08:21:59,2023-03-18 08:21:59,0.610s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-01 LoginApp,,,,2023-03-18 08:21:59,2023-03-18 08:22:25,25.871s,PASSED
+"callTestCase(findTestCase(""InitApp""), [:], STOP_ON_FAILURE)",,,,2023-03-18 08:21:59,2023-03-18 08:22:18,18.879s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.support.v7.app.ActionBarTab""), 0)",,,,2023-03-18 08:22:18,2023-03-18 08:22:20,1.730s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.TextView - Sign In""), 0)",,,,2023-03-18 08:22:20,2023-03-18 08:22:20,0.258s,PASSED
+"setText(findTestObject(""Object Repository/Login/android.widget.EditText - enter your registered email""), ""admin"", 0)",,,,2023-03-18 08:22:20,2023-03-18 08:22:22,1.243s,PASSED
+"setText(findTestObject(""Object Repository/Login/android.widget.EditText - enter your secure password""), ""123"", 0)",,,,2023-03-18 08:22:22,2023-03-18 08:22:23,1.809s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.Button - LOGIN""), 0)",,,,2023-03-18 08:22:23,2023-03-18 08:22:24,0.660s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/android.widget.TextView - Sign Out""), ""Sign Out"")",,,,2023-03-18 08:22:24,2023-03-18 08:22:25,1.089s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/android.widget.TextView - Hello""), ""Hello"")",,,,2023-03-18 08:22:25,2023-03-18 08:22:25,0.171s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-05 Wishlist,,,,2023-03-18 08:22:25,2023-03-18 08:22:58,32.241s,PASSED
+"callTestCase(findTestCase(""InitApp""), [:], STOP_ON_FAILURE)",,,,2023-03-18 08:22:26,2023-03-18 08:22:47,21.673s,PASSED
+"tap(findTestObject(""Object Repository/Wishlist/android.support.v7.app.ActionBarTab""), 0)",,,,2023-03-18 08:22:47,2023-03-18 08:22:48,1.035s,PASSED
+"tap(findTestObject(""Object Repository/Wishlist/android.widget.LinearLayout""), 0)",,,,2023-03-18 08:22:48,2023-03-18 08:22:50,1.693s,PASSED
+"tap(findTestObject(""Object Repository/Wishlist/android.widget.ImageView""), 0)",,,,2023-03-18 08:22:50,2023-03-18 08:22:50,0.170s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wishlist/android.widget.TextView - In Wishlist""), ""In Wishlist"")",,,,2023-03-18 08:22:50,2023-03-18 08:22:51,0.706s,PASSED
+"tap(findTestObject(""Object Repository/Wishlist/android.widget.TextView - Add to Bag""), 0)",,,,2023-03-18 08:22:51,2023-03-18 08:22:52,0.778s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wishlist/android.widget.TextView - Added""), ""Added"")",,,,2023-03-18 08:22:52,2023-03-18 08:22:52,0.299s,PASSED
+"tap(findTestObject(""Object Repository/Wishlist/android.widget.ImageView (1)""), 0)",,,,2023-03-18 08:22:52,2023-03-18 08:22:53,0.812s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wishlist/android.widget.TextView - 2""), ""2"")",,,,2023-03-18 08:22:53,2023-03-18 08:22:53,0.169s,PASSED
+"tap(findTestObject(""Object Repository/Wishlist/android.widget.ImageView (1)""), 0)",,,,2023-03-18 08:22:53,2023-03-18 08:22:53,0.136s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wishlist/android.widget.TextView - 3""), ""3"")",,,,2023-03-18 08:22:53,2023-03-18 08:22:54,0.735s,PASSED
+"tap(findTestObject(""Object Repository/Wishlist/android.widget.ImageView (2)""), 0)",,,,2023-03-18 08:22:54,2023-03-18 08:22:54,0.268s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wishlist/android.widget.TextView - 2""), ""2"")",,,,2023-03-18 08:22:54,2023-03-18 08:22:55,0.665s,PASSED
+"tap(findTestObject(""Object Repository/Wishlist/android.widget.ImageView (2)""), 0)",,,,2023-03-18 08:22:55,2023-03-18 08:22:56,0.772s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wishlist/android.widget.TextView - 1""), ""1"")",,,,2023-03-18 08:22:56,2023-03-18 08:22:56,0.183s,PASSED
+"tap(findTestObject(""Object Repository/Wishlist/android.widget.ImageView (2)""), 0)",,,,2023-03-18 08:22:56,2023-03-18 08:22:56,0.767s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wishlist/android.widget.TextView - Add to Bag""), ""Add to Bag"")",,,,2023-03-18 08:22:56,2023-03-18 08:22:57,0.143s,PASSED
+closeApplication(),,,,2023-03-18 08:22:57,2023-03-18 08:22:58,0.925s,PASSED
+,,,,,,,
+Test Cases/Positive Case/TC-04 Order Detail,,,,2023-03-18 08:22:58,2023-03-18 08:23:25,26.994s,PASSED
+"callTestCase(findTestCase(""InitApp""), [:], STOP_ON_FAILURE)",,,,2023-03-18 08:22:58,2023-03-18 08:23:19,21.186s,PASSED
+"tap(findTestObject(""Object Repository/OrderDetail/android.support.v7.app.ActionBarTab""), 0)",,,,2023-03-18 08:23:19,2023-03-18 08:23:20,1.091s,PASSED
+"tap(findTestObject(""Object Repository/OrderDetail/android.widget.FrameLayout""), 0)",,,,2023-03-18 08:23:20,2023-03-18 08:23:21,0.752s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrderDetail/android.widget.TextView - My Orders""), ""My Orders"")",,,,2023-03-18 08:23:21,2023-03-18 08:23:22,1.052s,PASSED
+"tap(findTestObject(""Object Repository/OrderDetail/android.widget.FrameLayout (1)""), 0)",,,,2023-03-18 08:23:22,2023-03-18 08:23:22,0.185s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrderDetail/android.widget.TextView - Order Details""), ""Order Details"")",,,,2023-03-18 08:23:22,2023-03-18 08:23:23,1.058s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/OrderDetail/android.widget.TextView - 17 January""), 0)",,,,2023-03-18 08:23:23,2023-03-18 08:23:23,0.131s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/OrderDetail/android.support.v7.widget.RecyclerView""), 0)",,,,2023-03-18 08:23:23,2023-03-18 08:23:23,0.109s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/OrderDetail/android.widget.TextView - 123456""), 0)",,,,2023-03-18 08:23:23,2023-03-18 08:23:23,0.109s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/OrderDetail/android.widget.TextView - 10""), 0)",,,,2023-03-18 08:23:23,2023-03-18 08:23:24,0.104s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/OrderDetail/android.widget.FrameLayout (2)""), 0)",,,,2023-03-18 08:23:24,2023-03-18 08:23:24,0.105s,PASSED
+closeApplication(),,,,2023-03-18 08:23:24,2023-03-18 08:23:25,0.867s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-02 Error Register on Password Confirm,,,,2023-03-18 08:23:25,2023-03-18 08:23:57,32.615s,PASSED
+"callTestCase(findTestCase(""InitApp""), [:], STOP_ON_FAILURE)",,,,2023-03-18 08:23:25,2023-03-18 08:23:46,20.918s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.support.v7.app.ActionBarTab (1)""), 0)",,,,2023-03-18 08:23:46,2023-03-18 08:23:47,1.090s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.TextView - Sign In (1)""), 0)",,,,2023-03-18 08:23:47,2023-03-18 08:23:48,0.763s,PASSED
+"swipe(1000, 400, 0, 400)",,,,2023-03-18 08:23:48,2023-03-18 08:23:49,1.504s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - Your first  last name (1)""), ""bro"", 0)",,,,2023-03-18 08:23:49,2023-03-18 08:23:50,0.914s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - enter your registered email""), ""bro@email.com"", 0)",,,,2023-03-18 08:23:50,2023-03-18 08:23:52,1.633s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - create a strong password""), ""123"", 0)",,,,2023-03-18 08:23:52,2023-03-18 08:23:53,1.619s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - repeat your password""), ""456"", 0)",,,,2023-03-18 08:23:53,2023-03-18 08:23:55,1.613s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.Button - SIGNUP (1)""), 0)",,,,2023-03-18 08:23:55,2023-03-18 08:23:56,0.636s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Register/android.widget.TextView - Password and Confirm password not match""), ""Password and Confirm password not match."")",,,,2023-03-18 08:23:56,2023-03-18 08:23:56,0.688s,PASSED
+closeApplication(),,,,2023-03-18 08:23:56,2023-03-18 08:23:57,0.880s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-04 Error Login on Empty Password,,,,2023-03-18 08:23:57,2023-03-18 08:24:24,26.630s,PASSED
+"callTestCase(findTestCase(""InitApp""), [:], STOP_ON_FAILURE)",,,,2023-03-18 08:23:58,2023-03-18 08:24:18,20.839s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.support.v7.app.ActionBarTab (2)""), 0)",,,,2023-03-18 08:24:18,2023-03-18 08:24:20,1.122s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.TextView - Sign In (2)""), 0)",,,,2023-03-18 08:24:20,2023-03-18 08:24:20,0.754s,PASSED
+"setText(findTestObject(""Object Repository/Login/android.widget.EditText - enter your registered email (1)""), ""bro@mail.com"", 0)",,,,2023-03-18 08:24:20,2023-03-18 08:24:22,1.255s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.Button - LOGIN (2)""), 0)",,,,2023-03-18 08:24:22,2023-03-18 08:24:22,0.679s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/android.widget.TextView - Please enter password""), ""Please enter password."")",,,,2023-03-18 08:24:22,2023-03-18 08:24:23,0.707s,PASSED
+closeApplication(),,,,2023-03-18 08:24:23,2023-03-18 08:24:24,0.907s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-01 Error Register on Empty Input,,,,2023-03-18 08:24:24,2023-03-18 08:24:50,26.617s,PASSED
+"callTestCase(findTestCase(""InitApp""), [:], STOP_ON_FAILURE)",,,,2023-03-18 08:24:24,2023-03-18 08:24:45,20.955s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.support.v7.app.ActionBarTab""), 0)",,,,2023-03-18 08:24:45,2023-03-18 08:24:46,1.104s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.TextView - Sign In""), 0)",,,,2023-03-18 08:24:46,2023-03-18 08:24:47,0.759s,PASSED
+"swipe(1000, 400, 0, 400)",,,,2023-03-18 08:24:47,2023-03-18 08:24:49,1.483s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.Button - SIGNUP""), 0)",,,,2023-03-18 08:24:49,2023-03-18 08:24:49,0.363s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Register/android.widget.TextView - Please enter username""), ""Please enter username."")",,,,2023-03-18 08:24:49,2023-03-18 08:24:50,0.719s,PASSED
+closeApplication(),,,,2023-03-18 08:24:50,2023-03-18 08:24:50,0.873s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-05 Error Register on Empty Email,,,,2023-03-18 08:24:51,2023-03-18 08:25:21,30.615s,PASSED
+"callTestCase(findTestCase(""InitApp""), [:], STOP_ON_FAILURE)",,,,2023-03-18 08:24:51,2023-03-18 08:25:12,21.228s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.support.v7.app.ActionBarTab (1)""), 0)",,,,2023-03-18 08:25:12,2023-03-18 08:25:13,1.072s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.TextView - Sign In (1)""), 0)",,,,2023-03-18 08:25:13,2023-03-18 08:25:14,0.774s,PASSED
+"swipe(1000, 400, 0, 400)",,,,2023-03-18 08:25:14,2023-03-18 08:25:15,1.505s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - Your first  last name (1)""), ""bro"", 0)",,,,2023-03-18 08:25:15,2023-03-18 08:25:16,0.853s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - create a strong password (1)""), ""123"", 0)",,,,2023-03-18 08:25:16,2023-03-18 08:25:18,1.628s,PASSED
+"setText(findTestObject(""Object Repository/Register/android.widget.EditText - repeat your password (1)""), ""123"", 0)",,,,2023-03-18 08:25:18,2023-03-18 08:25:19,1.180s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.Button - SIGNUP (2)""), 0)",,,,2023-03-18 08:25:19,2023-03-18 08:25:20,0.608s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Register/android.widget.TextView - Please enter email address""), ""Please enter email address."")",,,,2023-03-18 08:25:20,2023-03-18 08:25:20,0.663s,PASSED
+closeApplication(),,,,2023-03-18 08:25:20,2023-03-18 08:25:21,0.861s,PASSED
+,,,,,,,
+Test Cases/Negative Case/TC-03 Error Login on Empty Values,,,,2023-03-18 08:25:21,2023-03-18 08:25:46,25.308s,PASSED
+"callTestCase(findTestCase(""InitApp""), [:], STOP_ON_FAILURE)",,,,2023-03-18 08:25:21,2023-03-18 08:25:42,20.906s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.support.v7.app.ActionBarTab (1)""), 0)",,,,2023-03-18 08:25:42,2023-03-18 08:25:43,1.060s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.TextView - Sign In (1)""), 0)",,,,2023-03-18 08:25:43,2023-03-18 08:25:44,0.717s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.Button - LOGIN (1)""), 0)",,,,2023-03-18 08:25:44,2023-03-18 08:25:45,0.821s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/android.widget.TextView - Please enter email address""), ""Please enter email address."")",,,,2023-03-18 08:25:45,2023-03-18 08:25:46,0.681s,PASSED
+closeApplication(),,,,2023-03-18 08:25:46,2023-03-18 08:25:46,0.836s,PASSED

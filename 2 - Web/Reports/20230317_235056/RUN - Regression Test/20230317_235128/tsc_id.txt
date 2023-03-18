@@ -1,0 +1,1 @@
+Test Suites/COLLECTION - Run All on Multiple Browser

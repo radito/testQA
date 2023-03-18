@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Shopping Cart 1</name>
+   <tag></tag>
+   <elementGuidId>7326d5df-682b-45ef-a4c9-645ace545cf9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.cart-head</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d6428d97-56e8-4d39-acad-3950e4af8105</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart-head</value>
+      <webElementGuid>edb6a5a0-54d3-4583-8fee-6e255b11b573</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.0.1.0.0</value>
+      <webElementGuid>2c9ec236-cd49-4236-b848-35fa97bc701d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shopping Cart  1</value>
+      <webElementGuid>14040c90-9dd9-454f-840b-ead96a6c8f7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;cart-content buying&quot;]/div[@class=&quot;cart-inner&quot;]/div[@class=&quot;cart-head&quot;]</value>
+      <webElementGuid>6ffe17b2-5fa7-4155-8ac1-f0aa698075c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div/div[2]/div/div</value>
+      <webElementGuid>87298d60-690a-4ef0-816b-58fbac719c3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN UP to MIDTRANS →'])[1]/following::div[3]</value>
+      <webElementGuid>88045b73-7e88-45a5-bedd-38b25880616d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN UP  →'])[1]/following::div[6]</value>
+      <webElementGuid>4c718aca-7360-4d00-8fc8-b7a9964c94d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product'])[1]/preceding::div[1]</value>
+      <webElementGuid>f483905a-9f34-4157-9c11-1c52992f97eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div</value>
+      <webElementGuid>8c6a0533-ad03-411f-81b1-b8c583553e22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Shopping Cart  1' or . = 'Shopping Cart  1')]</value>
+      <webElementGuid>74c08c18-5109-445c-84f9-91dcaf4fa81c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

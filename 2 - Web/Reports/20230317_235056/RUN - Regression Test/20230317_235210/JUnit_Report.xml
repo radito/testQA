@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RUN - Regression Test" time="185.82" tests="13" failures="0" errors="0">
+   <testsuite name="RUN - Regression Test" tests="13" failures="0" errors="0" time="185.82" skipped="0" timestamp="2023-03-17 23:53:26" hostname="raditows - 192.168.1.5" id="Test Suites/RUN - Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/raditows/Developer/QATest/2 - Web/Reports/20230317_235056/RUN - Regression Test/20230317_235210"/>
+         <property name="logFiles" value="/Users/raditows/Developer/QATest/2 - Web/Reports/20230317_235056/RUN - Regression Test/20230317_235210/execution0.log"/>
+         <property name="attachments" value="/Users/raditows/Developer/QATest/2 - Web/Reports/20230317_235056/RUN - Regression Test/20230317_235210/1679072152265.png"/>
+         <property name="hostName" value="raditows - 192.168.1.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Firefox 111.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="187aca9f-978c-4536-bbb1-a1faf90cc8e0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Positive Case/TC-08 - Amount Form Should Equal on Homepage" time="16.723" classname="Test Cases/Positive Case/TC-08 - Amount Form Should Equal on Homepage" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:53:27 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-08 - Amount Form Should Equal on Homepage: Test Cases/Positive Case/TC-08 - Amount Form Should Equal on Homepage
+
+2023-03-17 23:53:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:53:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:53:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:53:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:53:35 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:53:39 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:53:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmountVerify/a_BUY NOW")): Object: 'Object Repository/AmountVerify/a_BUY NOW' is clicked on
+
+2023-03-17 23:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AmountVerify/a_BUY NOW' is clicked on
+
+2023-03-17 23:53:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmountVerify/input_1_text-right"), "999"): Text '999' is set on object 'Object Repository/AmountVerify/input_1_text-right'
+
+2023-03-17 23:53:42 - [MESSAGE][PASSED] - Text '999' is set on object 'Object Repository/AmountVerify/input_1_text-right'
+
+2023-03-17 23:53:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AmountVerify/td_999"), "999"): Actual text and expected text of test object 'Object Repository/AmountVerify/td_999' are matched.
+
+2023-03-17 23:53:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AmountVerify/td_999' are matched.
+
+2023-03-17 23:53:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmountVerify/div_cancel")): Object: 'Object Repository/AmountVerify/div_cancel' is clicked on
+
+2023-03-17 23:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/AmountVerify/div_cancel' is clicked on
+
+2023-03-17 23:53:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AmountVerify/span_999"), "999"): Actual text and expected text of test object 'Object Repository/AmountVerify/span_999' are matched.
+
+2023-03-17 23:53:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AmountVerify/span_999' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-02 - Register (Sign Up) Button" time="14.428" classname="Test Cases/Positive Case/TC-02 - Register (Sign Up) Button" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:53:44 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-02 - Register (Sign Up) Button: Test Cases/Positive Case/TC-02 - Register (Sign Up) Button
+
+2023-03-17 23:53:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:53:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:53:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:53:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:53:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:53:49 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:53:51 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:53:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Register/div_Ready to integrate SNAPSIGN UP"), 0): Object 'Object Repository/Register/div_Ready to integrate SNAPSIGN UP' is present
+
+2023-03-17 23:53:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-17 23:53:53 - [MESSAGE][PASSED] - Object 'Object Repository/Register/div_Ready to integrate SNAPSIGN UP' is present
+
+2023-03-17 23:53:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/a_SIGN UP")): Object: 'Object Repository/Register/a_SIGN UP' is clicked on
+
+2023-03-17 23:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/a_SIGN UP' is clicked on
+
+2023-03-17 23:53:53 - [TEST_STEP][PASSED] - switchToWindowTitle("MAP | Registration"): Switched to window with title: 'MAP | Registration'
+
+2023-03-17 23:53:54 - [MESSAGE][PASSED] - Switched to window with title: 'MAP | Registration'
+
+2023-03-17 23:53:54 - [TEST_STEP][PASSED] - assert getUrl() == "https://dashboard.midtrans.com/register": Current window's url is: 'https://dashboard.midtrans.com/register'
+
+2023-03-17 23:53:54 - [MESSAGE][PASSED] - Current window's url is: 'https://dashboard.midtrans.com/register'
+
+2023-03-17 23:53:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Register/h1_Registration"), "Registration"): Actual text and expected text of test object 'Object Repository/Register/h1_Registration' are matched.
+
+2023-03-17 23:53:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Register/h1_Registration' are matched.
+
+2023-03-17 23:53:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-17 23:53:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-09 - Amount Checkout Should Equal on Form" time="13.721" classname="Test Cases/Positive Case/TC-09 - Amount Checkout Should Equal on Form" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:53:58 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-09 - Amount Checkout Should Equal on Form: Test Cases/Positive Case/TC-09 - Amount Checkout Should Equal on Form
+
+2023-03-17 23:53:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:53:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:53:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:54:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:54:02 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:05 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmountCheckout/a_BUY NOW")): Object: 'Object Repository/AmountCheckout/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AmountCheckout/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmountCheckout/input_1_text-right"), "999"): Text '999' is set on object 'Object Repository/AmountCheckout/input_1_text-right'
+
+2023-03-17 23:54:08 - [MESSAGE][PASSED] - Text '999' is set on object 'Object Repository/AmountCheckout/input_1_text-right'
+
+2023-03-17 23:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmountCheckout/div_CHECKOUT")): Object: 'Object Repository/AmountCheckout/div_CHECKOUT' is clicked on
+
+2023-03-17 23:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AmountCheckout/div_CHECKOUT' is clicked on
+
+2023-03-17 23:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmountCheckout/img_Rp999_logo")): Object: 'Object Repository/AmountCheckout/img_Rp999_logo' is clicked on
+
+2023-03-17 23:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AmountCheckout/img_Rp999_logo' is clicked on
+
+2023-03-17 23:54:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AmountCheckout/div_Rp999"), "Rp999"): Actual text and expected text of test object 'Object Repository/AmountCheckout/div_Rp999' are matched.
+
+2023-03-17 23:54:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AmountCheckout/div_Rp999' are matched.
+
+2023-03-17 23:54:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AmountCheckout/td_Rp999"), "Rp999"): Actual text and expected text of test object 'Object Repository/AmountCheckout/td_Rp999' are matched.
+
+2023-03-17 23:54:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AmountCheckout/td_Rp999' are matched.
+
+2023-03-17 23:54:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AmountCheckout/td_Rp999"), "Rp999"): Actual text and expected text of test object 'Object Repository/AmountCheckout/td_Rp999' are matched.
+
+2023-03-17 23:54:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AmountCheckout/td_Rp999' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout" time="14.999" classname="Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:54:12 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout: Test Cases/Positive Case/TC-06 - Payment PopUp on Checkout
+
+2023-03-17 23:54:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:54:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:54:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:54:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:54:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:54:17 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:20 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCheckout/a_BUY NOW")): Object: 'Object Repository/PopupCheckout/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCheckout/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCheckout/div_CHECKOUT")): Object: 'Object Repository/PopupCheckout/div_CHECKOUT' is clicked on
+
+2023-03-17 23:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCheckout/div_CHECKOUT' is clicked on
+
+2023-03-17 23:54:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCheckout/div_TEST_modal-iframe")): Object 'Object Repository/PopupCheckout/div_TEST_modal-iframe' is visible
+
+2023-03-17 23:54:24 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCheckout/div_TEST_modal-iframe' is visible
+
+2023-03-17 23:54:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCheckout/div_DEMO STORE")): Object 'Object Repository/PopupCheckout/div_DEMO STORE' is visible
+
+2023-03-17 23:54:25 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCheckout/div_DEMO STORE' is visible
+
+2023-03-17 23:54:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCheckout/div_TotalChoose within235907Rp20.000Order I_01234c")): Object 'Object Repository/PopupCheckout/div_TotalChoose within235907Rp20.000Order I_01234c' is visible
+
+2023-03-17 23:54:25 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCheckout/div_TotalChoose within235907Rp20.000Order I_01234c' is visible
+
+2023-03-17 23:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCheckout/img_Rp20.000_logo")): Object: 'Object Repository/PopupCheckout/img_Rp20.000_logo' is clicked on
+
+2023-03-17 23:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCheckout/img_Rp20.000_logo' is clicked on
+
+2023-03-17 23:54:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCheckout/div_TotalChoose within235849Rp20.000Order I_b557cd")): Object 'Object Repository/PopupCheckout/div_TotalChoose within235849Rp20.000Order I_b557cd' is visible
+
+2023-03-17 23:54:27 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCheckout/div_TotalChoose within235849Rp20.000Order I_b557cd' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-07 - Payment PopUp on Close" time="10.557" classname="Test Cases/Positive Case/TC-07 - Payment PopUp on Close" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:54:27 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-07 - Payment PopUp on Close: Test Cases/Positive Case/TC-07 - Payment PopUp on Close
+
+2023-03-17 23:54:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:54:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:54:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:54:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:54:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:54:32 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:34 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCancel/a_BUY NOW")): Object: 'Object Repository/PopupCancel/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCancel/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCancel/div_SIGN UP_main-overlay buying")): Object 'Object Repository/PopupCancel/div_SIGN UP_main-overlay buying' is visible
+
+2023-03-17 23:54:36 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCancel/div_SIGN UP_main-overlay buying' is visible
+
+2023-03-17 23:54:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCancel/div_Shopping Cart 1")): Object 'Object Repository/PopupCancel/div_Shopping Cart 1' is visible
+
+2023-03-17 23:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCancel/div_Shopping Cart 1' is visible
+
+2023-03-17 23:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCancel/div_cancel")): Object: 'Object Repository/PopupCancel/div_cancel' is clicked on
+
+2023-03-17 23:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCancel/div_cancel' is clicked on
+
+2023-03-17 23:54:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Box/a_BUY NOW"), 0): Object 'Object Repository/Box/a_BUY NOW' is present
+
+2023-03-17 23:54:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-17 23:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/Box/a_BUY NOW' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-03 - Show Box Item Info" time="9.99" classname="Test Cases/Positive Case/TC-03 - Show Box Item Info" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:54:38 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-03 - Show Box Item Info: Test Cases/Positive Case/TC-03 - Show Box Item Info
+
+2023-03-17 23:54:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:54:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:54:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:54:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:54:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:54:42 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:44 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Box/div_Midtrans PillowRp 20,000Get cozy with o_4052a0"), 0): Object 'Object Repository/Box/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is present
+
+2023-03-17 23:54:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-17 23:54:46 - [MESSAGE][PASSED] - Object 'Object Repository/Box/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is present
+
+2023-03-17 23:54:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Box/a_BUY NOW"), 0): Object 'Object Repository/Box/a_BUY NOW' is present
+
+2023-03-17 23:54:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-17 23:54:46 - [MESSAGE][PASSED] - Object 'Object Repository/Box/a_BUY NOW' is present
+
+2023-03-17 23:54:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Box/div_Midtrans Pillow"), "Midtrans Pillow"): Actual text and expected text of test object 'Object Repository/Box/div_Midtrans Pillow' are matched.
+
+2023-03-17 23:54:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Box/div_Midtrans Pillow' are matched.
+
+2023-03-17 23:54:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Box/span_Get cozy with our new pillow"), "Get cozy with our new pillow!"): Actual text and expected text of test object 'Object Repository/Box/span_Get cozy with our new pillow' are matched.
+
+2023-03-17 23:54:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Box/span_Get cozy with our new pillow' are matched.
+
+2023-03-17 23:54:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-17 23:54:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel" time="11.3" classname="Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:54:48 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel: Test Cases/Positive Case/TC-05 - Redirect Homepage on Cancel
+
+2023-03-17 23:54:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:54:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:54:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:54:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:54:52 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:56 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCancel/a_BUY NOW")): Object: 'Object Repository/PopupCancel/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCancel/a_BUY NOW' is clicked on
+
+2023-03-17 23:54:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCancel/div_cancel")): Object 'Object Repository/PopupCancel/div_cancel' is visible
+
+2023-03-17 23:54:58 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCancel/div_cancel' is visible
+
+2023-03-17 23:54:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PopupCancel/div_cancel")): Object: 'Object Repository/PopupCancel/div_cancel' is clicked on
+
+2023-03-17 23:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PopupCancel/div_cancel' is clicked on
+
+2023-03-17 23:54:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/PopupCancel/div_Midtrans PillowRp 20,000Get cozy with o_4052a0")): Object 'Object Repository/PopupCancel/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is visible
+
+2023-03-17 23:54:59 - [MESSAGE][PASSED] - Object 'Object Repository/PopupCancel/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-01 - Show Shopping Cart Form" time="31.741" classname="Test Cases/Positive Case/TC-01 - Show Shopping Cart Form" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:54:59 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-01 - Show Shopping Cart Form: Test Cases/Positive Case/TC-01 - Show Shopping Cart Form
+
+2023-03-17 23:55:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:55:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:55:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:55:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:55:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:55:04 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:55:27 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:55:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Box/a_BUY NOW")): Object: 'Object Repository/Box/a_BUY NOW' is clicked on
+
+2023-03-17 23:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Box/a_BUY NOW' is clicked on
+
+2023-03-17 23:55:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Box/span_Shopping Cart")): Object 'Object Repository/Box/span_Shopping Cart' is visible
+
+2023-03-17 23:55:28 - [MESSAGE][PASSED] - Object 'Object Repository/Box/span_Shopping Cart' is visible
+
+2023-03-17 23:55:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Box/div_Customer Details")): Object: 'Object Repository/Box/div_Customer Details' is clicked on
+
+2023-03-17 23:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Box/div_Customer Details' is clicked on
+
+2023-03-17 23:55:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Box/div_Customer Details")): Object 'Object Repository/Box/div_Customer Details' is visible
+
+2023-03-17 23:55:29 - [MESSAGE][PASSED] - Object 'Object Repository/Box/div_Customer Details' is visible
+
+2023-03-17 23:55:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Box/div_Customer Details"), "Customer Details"): Actual text and expected text of test object 'Object Repository/Box/div_Customer Details' are matched.
+
+2023-03-17 23:55:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Box/div_Customer Details' are matched.
+
+2023-03-17 23:55:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Box/div_CHECKOUT")): Object 'Object Repository/Box/div_CHECKOUT' is visible
+
+2023-03-17 23:55:30 - [MESSAGE][PASSED] - Object 'Object Repository/Box/div_CHECKOUT' is visible
+
+2023-03-17 23:55:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Box/div_CHECKOUT"), "CHECKOUT"): Actual text and expected text of test object 'Object Repository/Box/div_CHECKOUT' are matched.
+
+2023-03-17 23:55:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Box/div_CHECKOUT' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant" time="12.381" classname="Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:55:31 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant: Test Cases/Positive Case/TC-04 - Redirect Homepage Button Back to Merchant
+
+2023-03-17 23:55:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:55:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:55:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:55:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:55:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:55:35 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:55:38 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackToMerchant/a_BUY NOW")): Object: 'Object Repository/BackToMerchant/a_BUY NOW' is clicked on
+
+2023-03-17 23:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/BackToMerchant/a_BUY NOW' is clicked on
+
+2023-03-17 23:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackToMerchant/div_CHECKOUT")): Object: 'Object Repository/BackToMerchant/div_CHECKOUT' is clicked on
+
+2023-03-17 23:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/BackToMerchant/div_CHECKOUT' is clicked on
+
+2023-03-17 23:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackToMerchant/a_GoPayQRIS")): Object: 'Object Repository/BackToMerchant/a_GoPayQRIS' is clicked on
+
+2023-03-17 23:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/BackToMerchant/a_GoPayQRIS' is clicked on
+
+2023-03-17 23:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackToMerchant/button_Back to merchant")): Object: 'Object Repository/BackToMerchant/button_Back to merchant' is clicked on
+
+2023-03-17 23:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BackToMerchant/button_Back to merchant' is clicked on
+
+2023-03-17 23:55:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0"), 0): Object 'Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is present
+
+2023-03-17 23:55:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-17 23:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is present
+
+2023-03-17 23:55:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0")): Object 'Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is visible
+
+2023-03-17 23:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/BackToMerchant/div_Midtrans PillowRp 20,000Get cozy with o_4052a0' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TC-04 - Disable Amount when inserted Character" time="9.241" classname="Test Cases/Negative Case/TC-04 - Disable Amount when inserted Character" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:55:43 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TC-04 - Disable Amount when inserted Character: Test Cases/Negative Case/TC-04 - Disable Amount when inserted Character
+
+2023-03-17 23:55:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:55:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:55:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:55:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:55:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:55:47 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:55:50 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NegAmountChar/a_BUY NOW")): Object: 'Object Repository/NegAmountChar/a_BUY NOW' is clicked on
+
+2023-03-17 23:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/NegAmountChar/a_BUY NOW' is clicked on
+
+2023-03-17 23:55:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NegAmountChar/input_1_text-right"), "1993"): Text '1993' is set on object 'Object Repository/NegAmountChar/input_1_text-right'
+
+2023-03-17 23:55:52 - [MESSAGE][PASSED] - Text '1993' is set on object 'Object Repository/NegAmountChar/input_1_text-right'
+
+2023-03-17 23:55:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sample Store/input_1_text-right"), "abcdefg", OPTIONAL): Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:966)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$10.call(Unknown Source)
+	at TC-04 - Disable Amount when inserted Character.run(TC-04 - Disable Amount when inserted Character:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679071930328.run(TempTestSuite1679071930328.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:966)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$10.call(Unknown Source)
+	at Script1679062949451.run(Script1679062949451.groovy:28)
+	... 13 more
+)
+
+2023-03-17 23:55:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Sample Store/input_1_text-right' does not exist
+
+2023-03-17 23:55:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2023-03-17 23:55:52 - [MESSAGE][WARNING] - Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:966)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$10.call(Unknown Source)
+	at TC-04 - Disable Amount when inserted Character.run(TC-04 - Disable Amount when inserted Character:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679071930328.run(TempTestSuite1679071930328.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:966)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$10.call(Unknown Source)
+	at Script1679062949451.run(Script1679062949451.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|/Users/raditows/Developer/QATest/2 - Web/Reports/20230317_235056/RUN - Regression Test/20230317_235210/1679072152265.png]]
+
+2023-03-17 23:55:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/NegAmountChar/td_1,993"), "1,993"): Actual text and expected text of test object 'Object Repository/NegAmountChar/td_1,993' are matched.
+
+2023-03-17 23:55:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NegAmountChar/td_1,993' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TC-02 - Error on Huge Amount" time="11.719" classname="Test Cases/Negative Case/TC-02 - Error on Huge Amount" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:55:52 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TC-02 - Error on Huge Amount: Test Cases/Negative Case/TC-02 - Error on Huge Amount
+
+2023-03-17 23:55:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:55:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:55:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:55:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:55:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:55:56 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:56:00 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:56:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NegAmountHuge/a_BUY NOW")): Object: 'Object Repository/NegAmountHuge/a_BUY NOW' is clicked on
+
+2023-03-17 23:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/NegAmountHuge/a_BUY NOW' is clicked on
+
+2023-03-17 23:56:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NegAmountHuge/input_1_text-right"), "1000000000000"): Text '1000000000000' is set on object 'Object Repository/NegAmountHuge/input_1_text-right'
+
+2023-03-17 23:56:01 - [MESSAGE][PASSED] - Text '1000000000000' is set on object 'Object Repository/NegAmountHuge/input_1_text-right'
+
+2023-03-17 23:56:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NegAmountHuge/div_CHECKOUT")): Object: 'Object Repository/NegAmountHuge/div_CHECKOUT' is clicked on
+
+2023-03-17 23:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/NegAmountHuge/div_CHECKOUT' is clicked on
+
+2023-03-17 23:56:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/NegAmountHuge/span_Sorry, something went wrong"), "Sorry, something went wrong."): Actual text and expected text of test object 'Object Repository/NegAmountHuge/span_Sorry, something went wrong' are matched.
+
+2023-03-17 23:56:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NegAmountHuge/span_Sorry, something went wrong' are matched.
+
+2023-03-17 23:56:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-17 23:56:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TC-01 - Amount Dont Accept Negative Value" time="9.351" classname="Test Cases/Negative Case/TC-01 - Amount Dont Accept Negative Value" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:56:04 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TC-01 - Amount Dont Accept Negative Value: Test Cases/Negative Case/TC-01 - Amount Dont Accept Negative Value
+
+2023-03-17 23:56:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:56:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:56:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:56:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:56:07 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:56:10 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NegValdiateNegative/a_BUY NOW")): Object: 'Object Repository/NegValdiateNegative/a_BUY NOW' is clicked on
+
+2023-03-17 23:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/NegValdiateNegative/a_BUY NOW' is clicked on
+
+2023-03-17 23:56:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NegValdiateNegative/input_1_text-right"), "123"): Text '123' is set on object 'Object Repository/NegValdiateNegative/input_1_text-right'
+
+2023-03-17 23:56:12 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/NegValdiateNegative/input_1_text-right'
+
+2023-03-17 23:56:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NegValdiateNegative/input_1_text-right"), "-"): Text '-' is set on object 'Object Repository/NegValdiateNegative/input_1_text-right'
+
+2023-03-17 23:56:13 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/NegValdiateNegative/input_1_text-right'
+
+2023-03-17 23:56:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/NegValdiateNegative/td_123"), "123"): Actual text and expected text of test object 'Object Repository/NegValdiateNegative/td_123' are matched.
+
+2023-03-17 23:56:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NegValdiateNegative/td_123' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TC-03 - Error on Empty Customer Data" time="18.495" classname="Test Cases/Negative Case/TC-03 - Error on Empty Customer Data" status="PASSED">
+         <system-out><![CDATA[2023-03-17 23:56:13 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TC-03 - Error on Empty Customer Data: Test Cases/Negative Case/TC-03 - Error on Empty Customer Data
+
+2023-03-17 23:56:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-17 23:56:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-17 23:56:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-03-17 23:56:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-17 23:56:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-17 23:56:17 - [TEST_STEP][PASSED] - navigateToUrl(web): Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:56:21 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2023-03-17 23:56:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EmptyData/a_BUY NOW")): Object: 'Object Repository/EmptyData/a_BUY NOW' is clicked on
+
+2023-03-17 23:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/EmptyData/a_BUY NOW' is clicked on
+
+2023-03-17 23:56:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EmptyData/input_email")): Object: 'Object Repository/EmptyData/input_email' is clicked on
+
+2023-03-17 23:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EmptyData/input_email' is clicked on
+
+2023-03-17 23:56:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EmptyData/input_email"), " "): Text ' ' is set on object 'Object Repository/EmptyData/input_email'
+
+2023-03-17 23:56:25 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/EmptyData/input_email'
+
+2023-03-17 23:56:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EmptyData/input_name")): Object: 'Object Repository/EmptyData/input_name' is clicked on
+
+2023-03-17 23:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/EmptyData/input_name' is clicked on
+
+2023-03-17 23:56:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EmptyData/input_name"), " "): Text ' ' is set on object 'Object Repository/EmptyData/input_name'
+
+2023-03-17 23:56:26 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/EmptyData/input_name'
+
+2023-03-17 23:56:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EmptyData/input_phone")): Object: 'Object Repository/EmptyData/input_phone' is clicked on
+
+2023-03-17 23:56:26 - [MESSAGE][PASSED] - Object: 'Object Repository/EmptyData/input_phone' is clicked on
+
+2023-03-17 23:56:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EmptyData/input_phone"), " "): Text ' ' is set on object 'Object Repository/EmptyData/input_phone'
+
+2023-03-17 23:56:27 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/EmptyData/input_phone'
+
+2023-03-17 23:56:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EmptyData/input_postal")): Object: 'Object Repository/EmptyData/input_postal' is clicked on
+
+2023-03-17 23:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/EmptyData/input_postal' is clicked on
+
+2023-03-17 23:56:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EmptyData/input_postal"), " "): Text ' ' is set on object 'Object Repository/EmptyData/input_postal'
+
+2023-03-17 23:56:28 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/EmptyData/input_postal'
+
+2023-03-17 23:56:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EmptyData/input_city")): Object: 'Object Repository/EmptyData/input_city' is clicked on
+
+2023-03-17 23:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/EmptyData/input_city' is clicked on
+
+2023-03-17 23:56:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EmptyData/input_city"), " "): Text ' ' is set on object 'Object Repository/EmptyData/input_city'
+
+2023-03-17 23:56:29 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/EmptyData/input_city'
+
+2023-03-17 23:56:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EmptyData/textarea_MidPlaza 2, 4th Floor Jl.Jend.Sudi_875190"), ""): Text '' is set on object 'Object Repository/EmptyData/textarea_MidPlaza 2, 4th Floor Jl.Jend.Sudi_875190'
+
+2023-03-17 23:56:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/EmptyData/textarea_MidPlaza 2, 4th Floor Jl.Jend.Sudi_875190'
+
+2023-03-17 23:56:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EmptyData/div_CHECKOUT")): Object: 'Object Repository/EmptyData/div_CHECKOUT' is clicked on
+
+2023-03-17 23:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/EmptyData/div_CHECKOUT' is clicked on
+
+2023-03-17 23:56:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/EmptyData/span_Sorry, something went wrong"), "Sorry, something went wrong."): Actual text and expected text of test object 'Object Repository/EmptyData/span_Sorry, something went wrong' are matched.
+
+2023-03-17 23:56:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EmptyData/span_Sorry, something went wrong' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-17 23:53:26 - [TEST_SUITE][PASSED] - RUN - Regression Test: Test Cases/Negative Case/TC-03 - Error on Empty Customer Data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

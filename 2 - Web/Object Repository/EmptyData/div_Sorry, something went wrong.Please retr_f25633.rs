@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sorry, something went wrong.Please retr_f25633</name>
+   <tag></tag>
+   <elementGuidId>b5585800-160b-4465-be41-f83c25daf842</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.trans-status.trans-error</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div/div/div[2]/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8ecf6ba2-35c4-43b6-9ed9-46858d47e3e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>trans-status trans-error</value>
+      <webElementGuid>a41f52fd-bdbc-4dfc-84b3-1616b4c926a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.0.0.2.0.1.0</value>
+      <webElementGuid>943f3ff3-d59a-49b6-bedc-8d25eba7c59f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sorry, something went wrong.Please retry your purchase.</value>
+      <webElementGuid>1f303274-7733-44fa-ab8c-d06323d13c0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;ss-box-wrapper&quot;]/div[@class=&quot;ss-box&quot;]/div[@class=&quot;notification-wrapper&quot;]/div[@class=&quot;trans-status trans-error&quot;]</value>
+      <webElementGuid>098e8b13-7485-4ad1-89f0-355af97be162</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div/div/div[2]/div/div[2]/div</value>
+      <webElementGuid>d497b23a-b309-489c-99e7-162e778bd8f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN UP  →'])[1]/following::div[3]</value>
+      <webElementGuid>25d4eef5-8c5b-4a48-80bc-4bcaec9d9e33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ready to integrate SNAP?'])[1]/following::div[3]</value>
+      <webElementGuid>73aa1b1c-b431-4cb0-b5c9-a9ab34aee8fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[2]/div/div[2]/div</value>
+      <webElementGuid>9aab9597-b321-42b3-bc10-eff925113931</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sorry, something went wrong.Please retry your purchase.' or . = 'Sorry, something went wrong.Please retry your purchase.')]</value>
+      <webElementGuid>a2757dd0-62d9-4fe2-bef0-90f926ecc2e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

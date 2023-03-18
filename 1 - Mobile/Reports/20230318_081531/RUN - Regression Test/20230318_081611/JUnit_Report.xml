@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RUN - Regression Test" time="297.545" tests="10" failures="0" errors="0">
+   <testsuite name="RUN - Regression Test" tests="10" failures="0" errors="0" time="297.545" skipped="0" timestamp="2023-03-18 08:20:49" hostname="raditows - 192.168.1.5" id="Test Suites/RUN - Regression Test">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/raditows/Developer/QATest/1 - Mobile/Reports/20230318_081531/RUN - Regression Test/20230318_081611"/>
+         <property name="logFiles" value="/Users/raditows/Developer/QATest/1 - Mobile/Reports/20230318_081531/RUN - Regression Test/20230318_081611/execution0.log, /Users/raditows/Developer/QATest/1 - Mobile/Reports/20230318_081531/RUN - Regression Test/20230318_081611/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="raditows - 192.168.1.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for arm64"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for arm64 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Positive Case/TC-03 Checkout" time="43.302" classname="Test Cases/Positive Case/TC-03 Checkout" status="PASSED">
+         <system-out><![CDATA[2023-03-18 08:20:49 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-03 Checkout: Test Cases/Positive Case/TC-03 Checkout
+
+2023-03-18 08:20:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Positive Case/TC-01 LoginApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Positive Case/TC-01 LoginApp' successfully
+
+2023-03-18 08:20:50 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-01 LoginApp: Test Cases/Positive Case/TC-01 LoginApp
+
+2023-03-18 08:20:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InitApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:20:50 - [TEST_CASE][PASSED] - Test Cases/InitApp: Test Cases/InitApp
+
+2023-03-18 08:20:50 - [TEST_STEP][PASSED] - startApplication("App/ecommerce-test.apk", true): Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:20:51 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-03-18 08:20:52 - [MESSAGE][INFO] - Appium server started on port 57,337
+
+2023-03-18 08:21:08 - [MESSAGE][PASSED] - Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:21:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-18 08:21:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-18 08:21:10 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:11 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:21:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:21:12 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:14 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:21:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:21:15 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:16 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:21:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:21:17 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:18 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:21:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:21:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/App/android.widget.TextView - Lets Get Started"), 0): Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:21:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:21:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.support.v7.app.ActionBarTab"), 0): Tapped on element 'Object Repository/Login/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:21:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:21:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.TextView - Sign In"), 0): Tapped on element 'Object Repository/Login/android.widget.TextView - Sign In'
+
+2023-03-18 08:21:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.TextView - Sign In'
+
+2023-03-18 08:21:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/android.widget.EditText - enter your registered email"), "admin", 0): Text 'admin' has been set to element 'Object Repository/Login/android.widget.EditText - enter your registered email'
+
+2023-03-18 08:21:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:23 - [MESSAGE][PASSED] - Text 'admin' has been set to element 'Object Repository/Login/android.widget.EditText - enter your registered email'
+
+2023-03-18 08:21:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/android.widget.EditText - enter your secure password"), "123", 0): Text '123' has been set to element 'Object Repository/Login/android.widget.EditText - enter your secure password'
+
+2023-03-18 08:21:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:24 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/Login/android.widget.EditText - enter your secure password'
+
+2023-03-18 08:21:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN'
+
+2023-03-18 08:21:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN'
+
+2023-03-18 08:21:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/android.widget.TextView - Sign Out"), "Sign Out"): Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Sign Out' are matched.
+
+2023-03-18 08:21:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Sign Out' are matched.
+
+2023-03-18 08:21:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/android.widget.TextView - Hello"), "Hello"): Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Hello' are matched.
+
+2023-03-18 08:21:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Hello' are matched.
+
+2023-03-18 08:21:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Positive Case/TC-01 LoginApp' successfully
+
+2023-03-18 08:21:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.support.v7.app.ActionBarTab"), 0): Tapped on element 'Object Repository/Checkout/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:21:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:21:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.TextView - Checkout"), 0): Tapped on element 'Object Repository/Checkout/android.widget.TextView - Checkout'
+
+2023-03-18 08:21:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.TextView - Checkout'
+
+2023-03-18 08:21:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Checkout/android.widget.TextView - Checkout (1)"), 0): Element 'Object Repository/Checkout/android.widget.TextView - Checkout (1)' is visible
+
+2023-03-18 08:21:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:28 - [MESSAGE][PASSED] - Element 'Object Repository/Checkout/android.widget.TextView - Checkout (1)' is visible
+
+2023-03-18 08:21:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Checkout/android.widget.ImageView'
+
+2023-03-18 08:21:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.ImageView'
+
+2023-03-18 08:21:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.TextView - Confirm"), 0): Tapped on element 'Object Repository/Checkout/android.widget.TextView - Confirm'
+
+2023-03-18 08:21:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.TextView - Confirm'
+
+2023-03-18 08:21:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Checkout/android.widget.TextView - PAYMENT METHOD"), "PAYMENT METHOD"): Actual text and expected text of test object 'Object Repository/Checkout/android.widget.TextView - PAYMENT METHOD' are matched.
+
+2023-03-18 08:21:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Checkout/android.widget.TextView - PAYMENT METHOD' are matched.
+
+2023-03-18 08:21:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/Checkout/android.widget.ImageView (1)'
+
+2023-03-18 08:21:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.ImageView (1)'
+
+2023-03-18 08:21:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.TextView - Process"), 0): Tapped on element 'Object Repository/Checkout/android.widget.TextView - Process'
+
+2023-03-18 08:21:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.TextView - Process'
+
+2023-03-18 08:21:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Checkout/android.widget.TextView - Congratulations"), "Congratulations!"): Actual text and expected text of test object 'Object Repository/Checkout/android.widget.TextView - Congratulations' are matched.
+
+2023-03-18 08:21:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Checkout/android.widget.TextView - Congratulations' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-02 Logout" time="26.71" classname="Test Cases/Positive Case/TC-02 Logout" status="PASSED">
+         <system-out><![CDATA[2023-03-18 08:21:33 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-02 Logout: Test Cases/Positive Case/TC-02 Logout
+
+2023-03-18 08:21:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Positive Case/TC-01 LoginApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Positive Case/TC-01 LoginApp' successfully
+
+2023-03-18 08:21:33 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-01 LoginApp: Test Cases/Positive Case/TC-01 LoginApp
+
+2023-03-18 08:21:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InitApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:21:33 - [TEST_CASE][PASSED] - Test Cases/InitApp: Test Cases/InitApp
+
+2023-03-18 08:21:33 - [TEST_STEP][PASSED] - startApplication("App/ecommerce-test.apk", true): Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:21:40 - [MESSAGE][PASSED] - Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:21:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-18 08:21:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-18 08:21:42 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:44 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:21:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:21:45 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:46 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:21:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:21:47 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:48 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:21:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:21:49 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:50 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:21:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:21:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:21:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/App/android.widget.TextView - Lets Get Started"), 0): Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:21:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:21:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.support.v7.app.ActionBarTab"), 0): Tapped on element 'Object Repository/Login/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:21:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.TextView - Sign In"), 0): Tapped on element 'Object Repository/Login/android.widget.TextView - Sign In'
+
+2023-03-18 08:21:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.TextView - Sign In'
+
+2023-03-18 08:21:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/android.widget.EditText - enter your registered email"), "admin", 0): Text 'admin' has been set to element 'Object Repository/Login/android.widget.EditText - enter your registered email'
+
+2023-03-18 08:21:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:55 - [MESSAGE][PASSED] - Text 'admin' has been set to element 'Object Repository/Login/android.widget.EditText - enter your registered email'
+
+2023-03-18 08:21:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/android.widget.EditText - enter your secure password"), "123", 0): Text '123' has been set to element 'Object Repository/Login/android.widget.EditText - enter your secure password'
+
+2023-03-18 08:21:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:57 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/Login/android.widget.EditText - enter your secure password'
+
+2023-03-18 08:21:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN'
+
+2023-03-18 08:21:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN'
+
+2023-03-18 08:21:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/android.widget.TextView - Sign Out"), "Sign Out"): Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Sign Out' are matched.
+
+2023-03-18 08:21:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Sign Out' are matched.
+
+2023-03-18 08:21:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/android.widget.TextView - Hello"), "Hello"): Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Hello' are matched.
+
+2023-03-18 08:21:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Hello' are matched.
+
+2023-03-18 08:21:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Positive Case/TC-01 LoginApp' successfully
+
+2023-03-18 08:21:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Logout/android.widget.TextView - Sign Out"), "Sign Out"): Actual text and expected text of test object 'Object Repository/Logout/android.widget.TextView - Sign Out' are matched.
+
+2023-03-18 08:21:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Logout/android.widget.TextView - Sign Out' are matched.
+
+2023-03-18 08:21:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Logout/android.widget.TextView - Sign Out"), 0): Tapped on element 'Object Repository/Logout/android.widget.TextView - Sign Out'
+
+2023-03-18 08:21:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:21:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Logout/android.widget.TextView - Sign Out'
+
+2023-03-18 08:21:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Logout/android.widget.TextView - Guest"), "Guest"): Actual text and expected text of test object 'Object Repository/Logout/android.widget.TextView - Guest' are matched.
+
+2023-03-18 08:21:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Logout/android.widget.TextView - Guest' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-01 LoginApp" time="25.871" classname="Test Cases/Positive Case/TC-01 LoginApp" status="PASSED">
+         <system-out><![CDATA[2023-03-18 08:21:59 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-01 LoginApp: Test Cases/Positive Case/TC-01 LoginApp
+
+2023-03-18 08:21:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InitApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:22:00 - [TEST_CASE][PASSED] - Test Cases/InitApp: Test Cases/InitApp
+
+2023-03-18 08:22:00 - [TEST_STEP][PASSED] - startApplication("App/ecommerce-test.apk", true): Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:22:07 - [MESSAGE][PASSED] - Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:22:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-18 08:22:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-18 08:22:09 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:10 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:22:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:22:11 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:12 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:22:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:22:13 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:15 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:22:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:22:16 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:17 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:22:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:22:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/App/android.widget.TextView - Lets Get Started"), 0): Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:22:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:22:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:22:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.support.v7.app.ActionBarTab"), 0): Tapped on element 'Object Repository/Login/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:22:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:22:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.TextView - Sign In"), 0): Tapped on element 'Object Repository/Login/android.widget.TextView - Sign In'
+
+2023-03-18 08:22:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.TextView - Sign In'
+
+2023-03-18 08:22:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/android.widget.EditText - enter your registered email"), "admin", 0): Text 'admin' has been set to element 'Object Repository/Login/android.widget.EditText - enter your registered email'
+
+2023-03-18 08:22:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:22 - [MESSAGE][PASSED] - Text 'admin' has been set to element 'Object Repository/Login/android.widget.EditText - enter your registered email'
+
+2023-03-18 08:22:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/android.widget.EditText - enter your secure password"), "123", 0): Text '123' has been set to element 'Object Repository/Login/android.widget.EditText - enter your secure password'
+
+2023-03-18 08:22:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:23 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/Login/android.widget.EditText - enter your secure password'
+
+2023-03-18 08:22:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN'
+
+2023-03-18 08:22:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN'
+
+2023-03-18 08:22:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/android.widget.TextView - Sign Out"), "Sign Out"): Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Sign Out' are matched.
+
+2023-03-18 08:22:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Sign Out' are matched.
+
+2023-03-18 08:22:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/android.widget.TextView - Hello"), "Hello"): Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Hello' are matched.
+
+2023-03-18 08:22:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Hello' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-05 Wishlist" time="32.241" classname="Test Cases/Positive Case/TC-05 Wishlist" status="PASSED">
+         <system-out><![CDATA[2023-03-18 08:22:25 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-05 Wishlist: Test Cases/Positive Case/TC-05 Wishlist
+
+2023-03-18 08:22:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InitApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:22:26 - [TEST_CASE][PASSED] - Test Cases/InitApp: Test Cases/InitApp
+
+2023-03-18 08:22:26 - [TEST_STEP][PASSED] - startApplication("App/ecommerce-test.apk", true): Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:22:33 - [MESSAGE][PASSED] - Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:22:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-18 08:22:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-18 08:22:35 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:37 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:22:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:22:38 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:39 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:22:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:22:40 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:41 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:22:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:22:42 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:43 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:22:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:22:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:22:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/App/android.widget.TextView - Lets Get Started"), 0): Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:22:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:22:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:22:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Wishlist/android.support.v7.app.ActionBarTab"), 0): Tapped on element 'Object Repository/Wishlist/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:22:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Wishlist/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:22:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Wishlist/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Wishlist/android.widget.LinearLayout'
+
+2023-03-18 08:22:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Wishlist/android.widget.LinearLayout'
+
+2023-03-18 08:22:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Wishlist/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Wishlist/android.widget.ImageView'
+
+2023-03-18 08:22:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Wishlist/android.widget.ImageView'
+
+2023-03-18 08:22:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Wishlist/android.widget.TextView - In Wishlist"), "In Wishlist"): Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - In Wishlist' are matched.
+
+2023-03-18 08:22:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - In Wishlist' are matched.
+
+2023-03-18 08:22:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Wishlist/android.widget.TextView - Add to Bag"), 0): Tapped on element 'Object Repository/Wishlist/android.widget.TextView - Add to Bag'
+
+2023-03-18 08:22:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Wishlist/android.widget.TextView - Add to Bag'
+
+2023-03-18 08:22:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Wishlist/android.widget.TextView - Added"), "Added"): Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - Added' are matched.
+
+2023-03-18 08:22:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - Added' are matched.
+
+2023-03-18 08:22:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Wishlist/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/Wishlist/android.widget.ImageView (1)'
+
+2023-03-18 08:22:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Wishlist/android.widget.ImageView (1)'
+
+2023-03-18 08:22:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Wishlist/android.widget.TextView - 2"), "2"): Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - 2' are matched.
+
+2023-03-18 08:22:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - 2' are matched.
+
+2023-03-18 08:22:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Wishlist/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/Wishlist/android.widget.ImageView (1)'
+
+2023-03-18 08:22:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Wishlist/android.widget.ImageView (1)'
+
+2023-03-18 08:22:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Wishlist/android.widget.TextView - 3"), "3"): Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - 3' are matched.
+
+2023-03-18 08:22:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - 3' are matched.
+
+2023-03-18 08:22:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Wishlist/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/Wishlist/android.widget.ImageView (2)'
+
+2023-03-18 08:22:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Wishlist/android.widget.ImageView (2)'
+
+2023-03-18 08:22:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Wishlist/android.widget.TextView - 2"), "2"): Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - 2' are matched.
+
+2023-03-18 08:22:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - 2' are matched.
+
+2023-03-18 08:22:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Wishlist/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/Wishlist/android.widget.ImageView (2)'
+
+2023-03-18 08:22:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Wishlist/android.widget.ImageView (2)'
+
+2023-03-18 08:22:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Wishlist/android.widget.TextView - 1"), "1"): Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - 1' are matched.
+
+2023-03-18 08:22:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - 1' are matched.
+
+2023-03-18 08:22:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Wishlist/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/Wishlist/android.widget.ImageView (2)'
+
+2023-03-18 08:22:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:22:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Wishlist/android.widget.ImageView (2)'
+
+2023-03-18 08:22:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Wishlist/android.widget.TextView - Add to Bag"), "Add to Bag"): Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - Add to Bag' are matched.
+
+2023-03-18 08:22:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/android.widget.TextView - Add to Bag' are matched.
+
+2023-03-18 08:22:57 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-03-18 08:22:58 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Case/TC-04 Order Detail" time="26.994" classname="Test Cases/Positive Case/TC-04 Order Detail" status="PASSED">
+         <system-out><![CDATA[2023-03-18 08:22:58 - [TEST_CASE][PASSED] - Test Cases/Positive Case/TC-04 Order Detail: Test Cases/Positive Case/TC-04 Order Detail
+
+2023-03-18 08:22:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InitApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:22:58 - [TEST_CASE][PASSED] - Test Cases/InitApp: Test Cases/InitApp
+
+2023-03-18 08:22:58 - [TEST_STEP][PASSED] - startApplication("App/ecommerce-test.apk", true): Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:22:58 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-03-18 08:22:59 - [MESSAGE][INFO] - Appium server started on port 57,920
+
+2023-03-18 08:23:08 - [MESSAGE][PASSED] - Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:23:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-18 08:23:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-18 08:23:10 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:11 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:23:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:23:12 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:13 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:23:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:23:14 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:15 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:23:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:23:16 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:18 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:23:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:23:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/App/android.widget.TextView - Lets Get Started"), 0): Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:23:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:23:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:23:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/OrderDetail/android.support.v7.app.ActionBarTab"), 0): Tapped on element 'Object Repository/OrderDetail/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:23:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OrderDetail/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:23:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/OrderDetail/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/OrderDetail/android.widget.FrameLayout'
+
+2023-03-18 08:23:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OrderDetail/android.widget.FrameLayout'
+
+2023-03-18 08:23:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrderDetail/android.widget.TextView - My Orders"), "My Orders"): Actual text and expected text of test object 'Object Repository/OrderDetail/android.widget.TextView - My Orders' are matched.
+
+2023-03-18 08:23:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrderDetail/android.widget.TextView - My Orders' are matched.
+
+2023-03-18 08:23:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/OrderDetail/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/OrderDetail/android.widget.FrameLayout (1)'
+
+2023-03-18 08:23:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OrderDetail/android.widget.FrameLayout (1)'
+
+2023-03-18 08:23:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrderDetail/android.widget.TextView - Order Details"), "Order Details"): Actual text and expected text of test object 'Object Repository/OrderDetail/android.widget.TextView - Order Details' are matched.
+
+2023-03-18 08:23:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrderDetail/android.widget.TextView - Order Details' are matched.
+
+2023-03-18 08:23:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/OrderDetail/android.widget.TextView - 17 January"), 0): Element 'Object Repository/OrderDetail/android.widget.TextView - 17 January' is visible
+
+2023-03-18 08:23:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:23 - [MESSAGE][PASSED] - Element 'Object Repository/OrderDetail/android.widget.TextView - 17 January' is visible
+
+2023-03-18 08:23:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/OrderDetail/android.support.v7.widget.RecyclerView"), 0): Element 'Object Repository/OrderDetail/android.support.v7.widget.RecyclerView' is visible
+
+2023-03-18 08:23:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:23 - [MESSAGE][PASSED] - Element 'Object Repository/OrderDetail/android.support.v7.widget.RecyclerView' is visible
+
+2023-03-18 08:23:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/OrderDetail/android.widget.TextView - 123456"), 0): Element 'Object Repository/OrderDetail/android.widget.TextView - 123456' is visible
+
+2023-03-18 08:23:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:23 - [MESSAGE][PASSED] - Element 'Object Repository/OrderDetail/android.widget.TextView - 123456' is visible
+
+2023-03-18 08:23:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/OrderDetail/android.widget.TextView - 10"), 0): Element 'Object Repository/OrderDetail/android.widget.TextView - 10' is visible
+
+2023-03-18 08:23:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:24 - [MESSAGE][PASSED] - Element 'Object Repository/OrderDetail/android.widget.TextView - 10' is visible
+
+2023-03-18 08:23:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/OrderDetail/android.widget.FrameLayout (2)"), 0): Element 'Object Repository/OrderDetail/android.widget.FrameLayout (2)' is visible
+
+2023-03-18 08:23:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:24 - [MESSAGE][PASSED] - Element 'Object Repository/OrderDetail/android.widget.FrameLayout (2)' is visible
+
+2023-03-18 08:23:24 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-03-18 08:23:25 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TC-02 Error Register on Password Confirm" time="32.615" classname="Test Cases/Negative Case/TC-02 Error Register on Password Confirm" status="PASSED">
+         <system-out><![CDATA[2023-03-18 08:23:25 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TC-02 Error Register on Password Confirm: Test Cases/Negative Case/TC-02 Error Register on Password Confirm
+
+2023-03-18 08:23:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InitApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:23:25 - [TEST_CASE][PASSED] - Test Cases/InitApp: Test Cases/InitApp
+
+2023-03-18 08:23:25 - [TEST_STEP][PASSED] - startApplication("App/ecommerce-test.apk", true): Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:23:25 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-03-18 08:23:26 - [MESSAGE][INFO] - Appium server started on port 58,073
+
+2023-03-18 08:23:35 - [MESSAGE][PASSED] - Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:23:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-18 08:23:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-18 08:23:37 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:38 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:23:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:23:39 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:40 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:23:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:23:41 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:42 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:23:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:23:43 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:44 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:23:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:23:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:23:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/App/android.widget.TextView - Lets Get Started"), 0): Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:23:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:23:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:23:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.support.v7.app.ActionBarTab (1)"), 0): Tapped on element 'Object Repository/Register/android.support.v7.app.ActionBarTab (1)'
+
+2023-03-18 08:23:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.support.v7.app.ActionBarTab (1)'
+
+2023-03-18 08:23:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.widget.TextView - Sign In (1)"), 0): Tapped on element 'Object Repository/Register/android.widget.TextView - Sign In (1)'
+
+2023-03-18 08:23:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.TextView - Sign In (1)'
+
+2023-03-18 08:23:48 - [TEST_STEP][PASSED] - swipe(1000, 400, 0, 400): Swiped from 1,000,400 to 0,400
+
+2023-03-18 08:23:49 - [MESSAGE][PASSED] - Swiped from 1,000,400 to 0,400
+
+2023-03-18 08:23:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/android.widget.EditText - Your first  last name (1)"), "bro", 0): Text 'bro' has been set to element 'Object Repository/Register/android.widget.EditText - Your first  last name (1)'
+
+2023-03-18 08:23:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:50 - [MESSAGE][PASSED] - Text 'bro' has been set to element 'Object Repository/Register/android.widget.EditText - Your first  last name (1)'
+
+2023-03-18 08:23:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/android.widget.EditText - enter your registered email"), "bro@email.com", 0): Text 'bro@email.com' has been set to element 'Object Repository/Register/android.widget.EditText - enter your registered email'
+
+2023-03-18 08:23:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:52 - [MESSAGE][PASSED] - Text 'bro@email.com' has been set to element 'Object Repository/Register/android.widget.EditText - enter your registered email'
+
+2023-03-18 08:23:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/android.widget.EditText - create a strong password"), "123", 0): Text '123' has been set to element 'Object Repository/Register/android.widget.EditText - create a strong password'
+
+2023-03-18 08:23:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:53 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/Register/android.widget.EditText - create a strong password'
+
+2023-03-18 08:23:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/android.widget.EditText - repeat your password"), "456", 0): Text '456' has been set to element 'Object Repository/Register/android.widget.EditText - repeat your password'
+
+2023-03-18 08:23:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:55 - [MESSAGE][PASSED] - Text '456' has been set to element 'Object Repository/Register/android.widget.EditText - repeat your password'
+
+2023-03-18 08:23:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.widget.Button - SIGNUP (1)"), 0): Tapped on element 'Object Repository/Register/android.widget.Button - SIGNUP (1)'
+
+2023-03-18 08:23:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:23:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button - SIGNUP (1)'
+
+2023-03-18 08:23:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Register/android.widget.TextView - Password and Confirm password not match"), "Password and Confirm password not match."): Actual text and expected text of test object 'Object Repository/Register/android.widget.TextView - Password and Confirm password not match' are matched.
+
+2023-03-18 08:23:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Register/android.widget.TextView - Password and Confirm password not match' are matched.
+
+2023-03-18 08:23:56 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-03-18 08:23:57 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TC-04 Error Login on Empty Password" time="26.63" classname="Test Cases/Negative Case/TC-04 Error Login on Empty Password" status="PASSED">
+         <system-out><![CDATA[2023-03-18 08:23:57 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TC-04 Error Login on Empty Password: Test Cases/Negative Case/TC-04 Error Login on Empty Password
+
+2023-03-18 08:23:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InitApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:23:58 - [TEST_CASE][PASSED] - Test Cases/InitApp: Test Cases/InitApp
+
+2023-03-18 08:23:58 - [TEST_STEP][PASSED] - startApplication("App/ecommerce-test.apk", true): Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:23:58 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-03-18 08:23:59 - [MESSAGE][INFO] - Appium server started on port 58,230
+
+2023-03-18 08:24:07 - [MESSAGE][PASSED] - Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:24:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-18 08:24:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-18 08:24:09 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:10 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:24:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:24:11 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:13 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:24:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:24:14 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:15 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:24:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:24:16 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:17 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:24:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:24:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/App/android.widget.TextView - Lets Get Started"), 0): Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:24:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:24:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:24:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:24:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.support.v7.app.ActionBarTab (2)"), 0): Tapped on element 'Object Repository/Login/android.support.v7.app.ActionBarTab (2)'
+
+2023-03-18 08:24:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:24:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.support.v7.app.ActionBarTab (2)'
+
+2023-03-18 08:24:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.TextView - Sign In (2)"), 0): Tapped on element 'Object Repository/Login/android.widget.TextView - Sign In (2)'
+
+2023-03-18 08:24:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:24:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.TextView - Sign In (2)'
+
+2023-03-18 08:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/android.widget.EditText - enter your registered email (1)"), "bro@mail.com", 0): Text 'bro@mail.com' has been set to element 'Object Repository/Login/android.widget.EditText - enter your registered email (1)'
+
+2023-03-18 08:24:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:24:22 - [MESSAGE][PASSED] - Text 'bro@mail.com' has been set to element 'Object Repository/Login/android.widget.EditText - enter your registered email (1)'
+
+2023-03-18 08:24:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.Button - LOGIN (2)"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN (2)'
+
+2023-03-18 08:24:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:24:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN (2)'
+
+2023-03-18 08:24:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/android.widget.TextView - Please enter password"), "Please enter password."): Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Please enter password' are matched.
+
+2023-03-18 08:24:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Please enter password' are matched.
+
+2023-03-18 08:24:23 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-03-18 08:24:24 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TC-01 Error Register on Empty Input" time="26.617" classname="Test Cases/Negative Case/TC-01 Error Register on Empty Input" status="PASSED">
+         <system-out><![CDATA[2023-03-18 08:24:24 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TC-01 Error Register on Empty Input: Test Cases/Negative Case/TC-01 Error Register on Empty Input
+
+2023-03-18 08:24:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InitApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:24:24 - [TEST_CASE][PASSED] - Test Cases/InitApp: Test Cases/InitApp
+
+2023-03-18 08:24:24 - [TEST_STEP][PASSED] - startApplication("App/ecommerce-test.apk", true): Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:24:25 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-03-18 08:24:26 - [MESSAGE][INFO] - Appium server started on port 58,387
+
+2023-03-18 08:24:34 - [MESSAGE][PASSED] - Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:24:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-18 08:24:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-18 08:24:36 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:37 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:24:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:24:38 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:39 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:24:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:24:40 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:42 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:24:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:24:43 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:44 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:24:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:24:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:24:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/App/android.widget.TextView - Lets Get Started"), 0): Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:24:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:24:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:24:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.support.v7.app.ActionBarTab"), 0): Tapped on element 'Object Repository/Register/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:24:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.support.v7.app.ActionBarTab'
+
+2023-03-18 08:24:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.widget.TextView - Sign In"), 0): Tapped on element 'Object Repository/Register/android.widget.TextView - Sign In'
+
+2023-03-18 08:24:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:24:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.TextView - Sign In'
+
+2023-03-18 08:24:47 - [TEST_STEP][PASSED] - swipe(1000, 400, 0, 400): Swiped from 1,000,400 to 0,400
+
+2023-03-18 08:24:49 - [MESSAGE][PASSED] - Swiped from 1,000,400 to 0,400
+
+2023-03-18 08:24:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.widget.Button - SIGNUP"), 0): Tapped on element 'Object Repository/Register/android.widget.Button - SIGNUP'
+
+2023-03-18 08:24:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:24:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button - SIGNUP'
+
+2023-03-18 08:24:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Register/android.widget.TextView - Please enter username"), "Please enter username."): Actual text and expected text of test object 'Object Repository/Register/android.widget.TextView - Please enter username' are matched.
+
+2023-03-18 08:24:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Register/android.widget.TextView - Please enter username' are matched.
+
+2023-03-18 08:24:50 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-03-18 08:24:50 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TC-05 Error Register on Empty Email" time="30.615" classname="Test Cases/Negative Case/TC-05 Error Register on Empty Email" status="PASSED">
+         <system-out><![CDATA[2023-03-18 08:24:51 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TC-05 Error Register on Empty Email: Test Cases/Negative Case/TC-05 Error Register on Empty Email
+
+2023-03-18 08:24:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InitApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:24:51 - [TEST_CASE][PASSED] - Test Cases/InitApp: Test Cases/InitApp
+
+2023-03-18 08:24:51 - [TEST_STEP][PASSED] - startApplication("App/ecommerce-test.apk", true): Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:24:51 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-03-18 08:24:52 - [MESSAGE][INFO] - Appium server started on port 58,538
+
+2023-03-18 08:25:01 - [MESSAGE][PASSED] - Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:25:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-18 08:25:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-18 08:25:03 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:04 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:25:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:25:05 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:06 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:25:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:25:07 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:08 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:25:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:25:09 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:11 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:25:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:25:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/App/android.widget.TextView - Lets Get Started"), 0): Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:25:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:25:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:25:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.support.v7.app.ActionBarTab (1)"), 0): Tapped on element 'Object Repository/Register/android.support.v7.app.ActionBarTab (1)'
+
+2023-03-18 08:25:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.support.v7.app.ActionBarTab (1)'
+
+2023-03-18 08:25:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.widget.TextView - Sign In (1)"), 0): Tapped on element 'Object Repository/Register/android.widget.TextView - Sign In (1)'
+
+2023-03-18 08:25:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.TextView - Sign In (1)'
+
+2023-03-18 08:25:14 - [TEST_STEP][PASSED] - swipe(1000, 400, 0, 400): Swiped from 1,000,400 to 0,400
+
+2023-03-18 08:25:15 - [MESSAGE][PASSED] - Swiped from 1,000,400 to 0,400
+
+2023-03-18 08:25:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/android.widget.EditText - Your first  last name (1)"), "bro", 0): Text 'bro' has been set to element 'Object Repository/Register/android.widget.EditText - Your first  last name (1)'
+
+2023-03-18 08:25:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:16 - [MESSAGE][PASSED] - Text 'bro' has been set to element 'Object Repository/Register/android.widget.EditText - Your first  last name (1)'
+
+2023-03-18 08:25:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/android.widget.EditText - create a strong password (1)"), "123", 0): Text '123' has been set to element 'Object Repository/Register/android.widget.EditText - create a strong password (1)'
+
+2023-03-18 08:25:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:18 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/Register/android.widget.EditText - create a strong password (1)'
+
+2023-03-18 08:25:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/android.widget.EditText - repeat your password (1)"), "123", 0): Text '123' has been set to element 'Object Repository/Register/android.widget.EditText - repeat your password (1)'
+
+2023-03-18 08:25:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:19 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/Register/android.widget.EditText - repeat your password (1)'
+
+2023-03-18 08:25:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.widget.Button - SIGNUP (2)"), 0): Tapped on element 'Object Repository/Register/android.widget.Button - SIGNUP (2)'
+
+2023-03-18 08:25:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button - SIGNUP (2)'
+
+2023-03-18 08:25:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Register/android.widget.TextView - Please enter email address"), "Please enter email address."): Actual text and expected text of test object 'Object Repository/Register/android.widget.TextView - Please enter email address' are matched.
+
+2023-03-18 08:25:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Register/android.widget.TextView - Please enter email address' are matched.
+
+2023-03-18 08:25:20 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-03-18 08:25:21 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/TC-03 Error Login on Empty Values" time="25.308" classname="Test Cases/Negative Case/TC-03 Error Login on Empty Values" status="PASSED">
+         <system-out><![CDATA[2023-03-18 08:25:21 - [TEST_CASE][PASSED] - Test Cases/Negative Case/TC-03 Error Login on Empty Values: Test Cases/Negative Case/TC-03 Error Login on Empty Values
+
+2023-03-18 08:25:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InitApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:25:21 - [TEST_CASE][PASSED] - Test Cases/InitApp: Test Cases/InitApp
+
+2023-03-18 08:25:22 - [TEST_STEP][PASSED] - startApplication("App/ecommerce-test.apk", true): Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:25:22 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-03-18 08:25:23 - [MESSAGE][INFO] - Appium server started on port 58,695
+
+2023-03-18 08:25:31 - [MESSAGE][PASSED] - Started app at: '/Users/raditows/Developer/QATest/1 - Mobile/App/ecommerce-test.apk'
+
+2023-03-18 08:25:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-18 08:25:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-18 08:25:33 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:34 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:25:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:25:35 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:37 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:25:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:25:38 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:39 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:25:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:25:40 - [TEST_STEP][PASSED] - swipe(800, 0, 100, 0): Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:41 - [MESSAGE][PASSED] - Swiped from 800,0 to 100,0
+
+2023-03-18 08:25:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-03-18 08:25:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-03-18 08:25:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/App/android.widget.TextView - Lets Get Started"), 0): Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:25:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/App/android.widget.TextView - Lets Get Started'
+
+2023-03-18 08:25:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InitApp' successfully
+
+2023-03-18 08:25:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.support.v7.app.ActionBarTab (1)"), 0): Tapped on element 'Object Repository/Login/android.support.v7.app.ActionBarTab (1)'
+
+2023-03-18 08:25:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.support.v7.app.ActionBarTab (1)'
+
+2023-03-18 08:25:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.TextView - Sign In (1)"), 0): Tapped on element 'Object Repository/Login/android.widget.TextView - Sign In (1)'
+
+2023-03-18 08:25:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.TextView - Sign In (1)'
+
+2023-03-18 08:25:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.Button - LOGIN (1)"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN (1)'
+
+2023-03-18 08:25:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-18 08:25:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN (1)'
+
+2023-03-18 08:25:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/android.widget.TextView - Please enter email address"), "Please enter email address."): Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Please enter email address' are matched.
+
+2023-03-18 08:25:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/android.widget.TextView - Please enter email address' are matched.
+
+2023-03-18 08:25:46 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-03-18 08:25:46 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-18 08:20:49 - [TEST_SUITE][PASSED] - RUN - Regression Test: Test Cases/Negative Case/TC-03 Error Login on Empty Values]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

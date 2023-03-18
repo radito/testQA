@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Shopping Cart 1ProductQtyAmount (Rp)Mid_9c105e</name>
+   <tag></tag>
+   <elementGuidId>127064ec-53f4-4f50-bdb0-ecc2c6979bce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.cart-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f57a26d1-dbc2-4ee4-b158-3f2253997aa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart-inner</value>
+      <webElementGuid>d352fa2c-3999-43ee-bbd0-4f93b43791f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.0.1.0</value>
+      <webElementGuid>69a0ad17-1458-482d-b4b5-7661e16f793b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shopping Cart  1ProductQtyAmount (Rp)Midtrans Pillow× 1Total20,000Customer DetailsNameEmailPhone noCityAddressMidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11Postal Code</value>
+      <webElementGuid>5b5ee72a-96c8-4c66-8115-3613f6d9f3e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;cart-content buying&quot;]/div[@class=&quot;cart-inner&quot;]</value>
+      <webElementGuid>285496e5-2810-4c5d-a197-865d6d5f5dbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div/div[2]/div</value>
+      <webElementGuid>4abc1c11-1be2-4d76-b3e0-865a3badb1af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN UP to MIDTRANS →'])[1]/following::div[2]</value>
+      <webElementGuid>84b86f62-29f3-460a-96ea-e91d193fee6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN UP  →'])[1]/following::div[5]</value>
+      <webElementGuid>97eea161-3f8f-4d97-a8b2-1b8c4256ace6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>1d9498c4-b06b-4c82-b97f-473f7e936cc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Shopping Cart  1ProductQtyAmount (Rp)Midtrans Pillow× 1Total20,000Customer DetailsNameEmailPhone noCityAddressMidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11Postal Code' or . = 'Shopping Cart  1ProductQtyAmount (Rp)Midtrans Pillow× 1Total20,000Customer DetailsNameEmailPhone noCityAddressMidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11Postal Code')]</value>
+      <webElementGuid>cbe73054-f8e1-4217-bc44-563bc7f7391e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

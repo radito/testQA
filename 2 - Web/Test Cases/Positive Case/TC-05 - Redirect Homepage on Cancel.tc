@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pastikan user diarahkan ke Homepage ketika klik label Cancel</description>
+   <name>TC-05 - Redirect Homepage on Cancel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aab6c8a3-72a7-4b47-9f07-63b17d23f0c9</testCaseGuid>
+</TestCaseEntity>

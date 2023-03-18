@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pastikan Amount di PopUp Checkout Sesuai dengan Amount yang diinput</description>
+   <name>TC-09 - Amount Checkout Should Equal on Form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9cddbafe-9339-42d4-96d5-4f8211baf36d</testCaseGuid>
+</TestCaseEntity>

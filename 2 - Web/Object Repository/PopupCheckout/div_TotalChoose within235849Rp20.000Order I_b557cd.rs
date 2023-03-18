@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_TotalChoose within235849Rp20.000Order I_b557cd</name>
+   <tag></tag>
+   <elementGuidId>1a3f46e6-4b7b-450c-877d-3ab1a380e12e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.order-modal-dialog.bottom-padding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='application']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6471abf0-9582-4f7d-9a90-83d6e8614025</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>order-modal-dialog bottom-padding</value>
+      <webElementGuid>80037ba8-5c1a-4bcf-9952-350b82c68423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TotalChoose within23:58:49Rp20.000Order ID #sample-store-1679043731Your order1  Midtrans PillowRp20.000TotalRp20.000Customer detailsBudi sample_last_nameMidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11 Jakarta 10220+6281808466410</value>
+      <webElementGuid>6a8e3760-391e-49c2-82b3-bfff259bd0f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application&quot;)/div[@class=&quot;order-modal&quot;]/div[@class=&quot;order-modal-dialog bottom-padding&quot;]</value>
+      <webElementGuid>86542ae9-a3e3-4a71-8ef3-c43867b26732</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/PopupCheckout/iframe_concat(id(, , snap-midtrans, , ))_po_9b18a6</value>
+      <webElementGuid>c5b26841-ee8a-46c3-ae4a-adabd5a4c10f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='application']/div/div</value>
+      <webElementGuid>0d65eef6-b2fd-4986-9940-aedae08e1983</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TEST'])[1]/following::div[4]</value>
+      <webElementGuid>1b172a9e-784a-48ad-b4b3-0c1b1526a451</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div</value>
+      <webElementGuid>55531112-3b61-4dd9-8450-6a96c5a0244e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'TotalChoose within23:58:49Rp20.000Order ID #sample-store-1679043731Your order1  Midtrans PillowRp20.000TotalRp20.000Customer detailsBudi sample_last_nameMidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11 Jakarta 10220+6281808466410' or . = 'TotalChoose within23:58:49Rp20.000Order ID #sample-store-1679043731Your order1  Midtrans PillowRp20.000TotalRp20.000Customer detailsBudi sample_last_nameMidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11 Jakarta 10220+6281808466410')]</value>
+      <webElementGuid>78f23560-0f91-47a2-a207-79427b7d775b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

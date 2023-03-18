@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pastikan button Back to Merchant mengarahkan user ke Homepage</description>
+   <name>TC-04 - Redirect Homepage Button Back to Merchant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf9b3f6a-e343-46fb-82ea-42b278c9b570</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>2 - Web</name>
+   <tag></tag>
+   <UUID>daa8ab49-daa6-4bd8-9d06-c87da5c5a346</UUID>
+   <migratedVersion>5.9.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </sourceFolderConfiguration>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <timeStampInProperties>false</timeStampInProperties>
+   <type>WEBUI</type>
+</Project>
