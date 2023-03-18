@@ -1,9 +1,9 @@
 # Live Test QA
 
-## 1 Mobile
+## 1 - Mobile
 How to Run
 1. Open Katalon Studio
-2. Import `1 - Web` Project
+2. Import `1 - Mobile` Project
 3. Run with Test Suite
 
 Note: Apk Already Included in Katalon Project
